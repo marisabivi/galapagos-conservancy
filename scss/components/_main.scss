@@ -1,15 +1,15 @@
-.icon-facebook {
-    color: $teal;
+.icon {
+    i {
+        color: $teal
+    }
 }
-.icon-twitter{
-    color: $teal;
+
+.graph {
+    width: 4em;
 }
-.icon-youtube{
-    color: $teal;
-}
-.icon-instagram{
-    color: $teal;
-}
-.icon-heart{
-    color: $teal;
+
+.address {
+    li {
+        text-decoration: none;
+    }
 }

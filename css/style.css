@@ -1,21 +1,13 @@
-.icon-facebook {
+.icon i {
   color: #3DBB9A;
 }
 
-.icon-twitter {
-  color: #3DBB9A;
+.graph {
+  width: 4em;
 }
 
-.icon-youtube {
-  color: #3DBB9A;
-}
-
-.icon-instagram {
-  color: #3DBB9A;
-}
-
-.icon-heart {
-  color: #3DBB9A;
+.address li {
+  text-decoration: none;
 }
 
 .grid {
