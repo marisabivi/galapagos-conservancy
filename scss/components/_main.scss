@@ -1,3 +1,7 @@
+h5 {
+    text-align: center;
+}
+
 .icon {
     i {
         color: $teal
@@ -5,11 +9,22 @@
 }
 
 .graph {
-    width: 4em;
+    display: block;
+    margin: auto;
+    padding-bottom: .5em;
+    padding-left: 1.5em;
+    width: 8em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.graph-stat {
+    text-align: center;
 }
 
 .address {
-    li {
-        text-decoration: none;
-    }
+    text-align: center;
+
 }
