@@ -1,3 +1,145 @@
+body {
+  margin: 0;
+}
+
+h5 {
+  text-align: center;
+  color: #EFEEED;
+  padding-top: 3em;
+}
+
+.copyright {
+  color: #EFEEED;
+  text-align: center;
+  padding: 1em;
+  display: block;
+}
+
+@media screen and (min-width: 38em) {
+  .copyright {
+    text-align: right;
+  }
+}
+
+.icon {
+  text-align: center;
+}
+
+@media screen and (min-width: 38em) {
+  .icon {
+    text-align: center;
+  }
+}
+
+.icon i {
+  color: #3DBB9A;
+  font-size: 2em;
+  margin: .25em;
+  display: inline;
+}
+
+@media screen and (min-width: 38em) {
+  .icon i {
+    font-size: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+.graph {
+  display: block;
+  margin: auto;
+  padding-bottom: .5em;
+  width: 8em;
+}
+
+@media screen and (min-width: 38em) {
+  .graph {
+    margin-left: 6em;
+    padding-bottom: 1.5em;
+    width: 6em;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 38em) {
+  ul {
+    margin: 1em;
+  }
+}
+
+.stat-title {
+  font-size: 1.25em;
+  text-align: center;
+  color: #EFEEED;
+}
+
+@media screen and (min-width: 38em) {
+  .stat-title {
+    text-align: left;
+    margin: 2em;
+    padding: 0;
+  }
+}
+
+.graph-stat {
+  text-align: center;
+  padding-right: 3em;
+  color: #EFEEED;
+}
+
+@media screen and (min-width: 38em) {
+  .graph-stat {
+    text-align: center;
+    float: left;
+  }
+}
+
+.address {
+  text-align: center;
+  padding-right: 3em;
+  color: #EFEEED;
+}
+
+@media screen and (min-width: 38em) {
+  .address {
+    text-align: right;
+  }
+}
+
+button {
+  text-align: center;
+  display: block;
+  padding: .5em 1em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  position: relative;
+  margin: 2em auto;
+  right: .25em;
+}
+
+button:hover {
+  background-color: #339f82;
+}
+
+button a {
+  text-decoration: none;
+  color: #EFEEED;
+}
+
+footer {
+  display: block;
+  background-color: #092928;
+  width: 100%;
+}
+
 .grid {
   margin: 0;
   padding: 0;
