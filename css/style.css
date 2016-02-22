@@ -20,10 +20,12 @@ ul {
 
 .graph-stat {
   text-align: center;
+  padding-right: 1.5em;
 }
 
 .address {
   text-align: center;
+  padding-right: 1.5em;
 }
 
 .grid {
