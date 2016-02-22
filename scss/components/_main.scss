@@ -1,10 +1,24 @@
 h5 {
     text-align: center;
+    color: $off-white;
+    padding-top: 3em;
+}
+
+.copyright {
+    color: $off-white;
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 .icon {
+    text-align: center;
+
     i {
-        color: $teal
+        color: $teal;
+        font-size: 2em;
+        margin: .25em;
+        display:inline;
+        
     }
 }
 
@@ -23,10 +37,22 @@ ul {
 .graph-stat {
     text-align: center;
     padding-right: 1.5em;
+    color: $off-white;
 }
 
 .address {
     text-align: center;
     padding-right: 1.5em;
+    color: $off-white;
+}
+
+button {
+    @include button($teal);
+}
+
+footer {
+    display: block;
+    background-color: $dark-green;
+    bottom: 0px;
 
 }
