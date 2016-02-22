@@ -7,7 +7,7 @@ h5 {
 .copyright {
   color: #EFEEED;
   text-align: center;
-  padding-bottom: 2em;
+  padding: 1em;
 }
 
 .icon {
@@ -25,7 +25,7 @@ h5 {
   display: block;
   margin: auto;
   padding-bottom: .5em;
-  padding-left: 1.5em;
+  padding-right: 1em;
   width: 8em;
 }
 
@@ -33,34 +33,54 @@ ul {
   list-style-type: none;
 }
 
+.stat-title {
+  font-size: 1.25em;
+  text-align: center;
+  color: #EFEEED;
+}
+
 .graph-stat {
   text-align: center;
-  padding-right: 1.5em;
+  padding-right: 3em;
   color: #EFEEED;
 }
 
 .address {
   text-align: center;
-  padding-right: 1.5em;
+  padding-right: 3em;
   color: #EFEEED;
 }
 
 button {
   text-align: center;
-  display: inline-block;
-  margin: 2em;
+  display: block;
   padding: .5em 1em;
-  border-radius: 3px;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
   text-decoration: none;
   color: #EFEEED;
   font-size: 1.5em;
   background-color: #3DBB9A;
+  position: relative;
+  margin: 2em auto;
+  right: .25em;
+}
+
+button:hover {
+  background-color: #339f82;
+}
+
+button a {
+  text-decoration: none;
+  color: #EFEEED;
 }
 
 footer {
   display: block;
   background-color: #092928;
   bottom: 0px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .grid {

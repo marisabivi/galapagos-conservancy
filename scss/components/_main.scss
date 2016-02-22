@@ -7,7 +7,7 @@ h5 {
 .copyright {
     color: $off-white;
     text-align: center;
-    padding-bottom: 2em;
+    padding: 1em;
 }
 
 .icon {
@@ -26,7 +26,7 @@ h5 {
     display: block;
     margin: auto;
     padding-bottom: .5em;
-    padding-left: 1.5em;
+    padding-right: 1em;
     width: 8em;
 }
 
@@ -34,25 +34,39 @@ ul {
     list-style-type: none;
 }
 
+.stat-title {
+    font-size: 1.25em;
+    text-align: center;
+    color: $off-white;
+}
+
 .graph-stat {
     text-align: center;
-    padding-right: 1.5em;
+    padding-right: 3em;
     color: $off-white;
 }
 
 .address {
     text-align: center;
-    padding-right: 1.5em;
+    padding-right: 3em;
     color: $off-white;
 }
 
 button {
     @include button($teal);
+    position: relative;
+    margin: 2em auto;
+    right: .25em;
+        a{ 
+    text-decoration: none;
+    color: $off-white;
+    }
 }
 
 footer {
     display: block;
     background-color: $dark-green;
     bottom: 0px;
-
+    margin: 0 auto;
+    width: 100%;
 }
