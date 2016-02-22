@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h5 {
   text-align: center;
   color: #EFEEED;
@@ -25,7 +29,6 @@ h5 {
   display: block;
   margin: auto;
   padding-bottom: .5em;
-  padding-right: 1em;
   width: 8em;
 }
 
@@ -78,8 +81,6 @@ button a {
 footer {
   display: block;
   background-color: #092928;
-  bottom: 0px;
-  margin: 0 auto;
   width: 100%;
 }
 

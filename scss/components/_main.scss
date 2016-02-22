@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h5 {
     text-align: center;
     color: $off-white;
@@ -26,7 +30,6 @@ h5 {
     display: block;
     margin: auto;
     padding-bottom: .5em;
-    padding-right: 1em;
     width: 8em;
 }
 
@@ -66,7 +69,5 @@ button {
 footer {
     display: block;
     background-color: $dark-green;
-    bottom: 0px;
-    margin: 0 auto;
     width: 100%;
 }
