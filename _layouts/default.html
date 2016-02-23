@@ -5,8 +5,9 @@
     <title>Galapagos Conservancy</title>
     <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
     <link href="https://file.myfontastic.com/i49qVkvyeHfQECBiRoLBTB/icons.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width,initial-scale=1"> 
 </head>
 
@@ -36,38 +37,45 @@
  
 <footer id="footer">
     <h5>Sign Up for Latest News</h5>
-    <a href="{{site.baseurl}}/donate/">Donate</a>
-    <div class="graph">
+    <button><a href="{{site.baseurl}}/donate/">Donate</a> </button>
+    <div class=""> 
+        
+        <p class="stat-title">How Your Donations Help</p>
 
-        <img src="{{site.baseurl}}/img/fundinggraph.svg " alt="funding graph">
+        <img class="graph" src="{{site.baseurl}}/img/fundinggraph.svg " alt="funding graph">
 
-        <p>75% Grants and Conservation</p>
-        <p>19% Fundraising</p>
-        <p>6% Management</p>
+        <ul class="graph-stat">
+           
+            <li>75% Grants and Conservation</li>
+            <li>19% Fundraising</li>
+            <li>06% Management</li>
+        </ul>
+        
     </div>
     
-    <ul class="address">
+    <ul class="micro address">
         <li>Galapagos Conservancy</li>
         <li>11150 Fairfax Boulevard</li>
         <li>Suite 408</li>
         <li>Fairfax, VA, USA</li>
     </ul>
     
-	<div class="grid">
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-			<i class="icon-facebook"></i>
-			<i class="icon-twitter"></i>
-			<i class="icon-youtube"></i>
-			<i class="icon-instagram"></i>
-			<i class="icon-heart"></i>
+
+		<div class="icon">
+            <a style="text-decoration: none;" href="https://www.facebook.com/GalapagosConservancy/"><i class="icon-facebook"></i></a>
+            <a style="text-decoration: none;" href="https://twitter.com/SaveGalapagos"><i class="icon-twitter"></i></a>
+            <a style="text-decoration: none;" href="https://www.youtube.com/user/GalapagosConservancy"><i class="icon-youtube"></i></a>
+            <a style="text-decoration: none;" href="https://www.instagram.com/galapagosconservancy/"><i class="icon-instagram"></i></a>
+
 		</div>
 
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-		<p>©2016 Galapagos Conservancy</p>
+	<div class="copyright">
+		<p class=" micro">©2016 Galapagos Conservancy</p>
 	</div>
 
-	</div> <!-- /grid -->
+ <!-- /grid -->
 </footer>  
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+ <script src="js/push-menu.js"></script>   
 </body>
 </html>
