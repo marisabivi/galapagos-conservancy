@@ -5,19 +5,20 @@ body {
 h5 {
   text-align: center;
   color: #EFEEED;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 .copyright {
   color: #EFEEED;
   text-align: center;
-  padding: 1em;
+  padding: 2em;
   display: block;
 }
 
 @media screen and (min-width: 38em) {
   .copyright {
     text-align: right;
+    padding-top: 0;
   }
 }
 
@@ -27,7 +28,8 @@ h5 {
 
 @media screen and (min-width: 38em) {
   .icon {
-    text-align: center;
+    text-align: right;
+    margin-right: 1em;
   }
 }
 
@@ -41,12 +43,18 @@ h5 {
 @media screen and (min-width: 38em) {
   .icon i {
     font-size: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: .5em;
+    display: inline-block;
   }
 }
 
-.graph {
+@media screen and (min-width: 38em) {
+  .graph {
+    float: left;
+  }
+}
+
+.graph-img {
   display: block;
   margin: auto;
   padding-bottom: .5em;
@@ -54,7 +62,7 @@ h5 {
 }
 
 @media screen and (min-width: 38em) {
-  .graph {
+  .graph-img {
     margin-left: 6em;
     padding-bottom: 1.5em;
     width: 6em;
@@ -80,14 +88,15 @@ ul {
 @media screen and (min-width: 38em) {
   .stat-title {
     text-align: left;
-    margin: 2em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
     padding: 0;
   }
 }
 
 .graph-stat {
   text-align: center;
-  padding-right: 3em;
+  padding-right: 2em;
   color: #EFEEED;
 }
 
@@ -121,7 +130,7 @@ button {
   font-size: 1.5em;
   background-color: #3DBB9A;
   position: relative;
-  margin: 2em auto;
+  margin: 1em auto;
   right: .25em;
 }
 
@@ -138,6 +147,7 @@ footer {
   display: block;
   background-color: #092928;
   width: 100%;
+  padding-bottom: 0;
 }
 
 .grid {
