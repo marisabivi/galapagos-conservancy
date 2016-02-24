@@ -1,3 +1,26 @@
+header {
+  background-color: #092928;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.icon-hamberger {
+  font-size: 35px;
+  text-align: right;
+  margin: .5em;
+  color: #fff;
+}
+
 body {
   margin: 0;
 }
