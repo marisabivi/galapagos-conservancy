@@ -73,12 +73,6 @@ ul {
   list-style-type: none;
 }
 
-@media screen and (min-width: 38em) {
-  ul {
-    margin: 1em;
-  }
-}
-
 .stat-title {
   font-size: 1.25em;
   text-align: center;
@@ -119,7 +113,7 @@ ul {
   }
 }
 
-button {
+.donate-btn {
   text-align: center;
   display: block;
   padding: .5em 1em;
@@ -130,15 +124,14 @@ button {
   font-size: 1.5em;
   background-color: #3DBB9A;
   position: relative;
-  margin: 1em auto;
-  right: .25em;
+  margin: 1em;
 }
 
-button:hover {
+.donate-btn:hover {
   background-color: #339f82;
 }
 
-button a {
+.donate-btn a {
   text-decoration: none;
   color: #EFEEED;
 }
