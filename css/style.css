@@ -113,9 +113,10 @@ ul {
   }
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 70em) {
   .donate {
-    float: center;
+    position: absolute;
+    right: 40%;
   }
 }
 
