@@ -52,6 +52,9 @@ h5 {
     @media screen and (min-width: 38em) {
         float: left;
     }
+    @media screen and (min-width: 70em) {
+        padding-top: 3em;
+    }
     
 }
 
@@ -103,11 +106,15 @@ ul {
     @media screen and (min-width: 38em) {
         text-align: right;
     }
+    @media screen and (min-width: 70em) {
+        padding-top: 3em;
+    }
 }
 
 .donate {
     @media screen and (min-width: 70em) {
         position: absolute;
+        padding-top: 4.5em;
         right: 40%;
     }
 }

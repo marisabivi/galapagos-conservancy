@@ -54,6 +54,12 @@ h5 {
   }
 }
 
+@media screen and (min-width: 70em) {
+  .graph {
+    padding-top: 3em;
+  }
+}
+
 .graph-img {
   display: block;
   margin: auto;
@@ -114,8 +120,15 @@ ul {
 }
 
 @media screen and (min-width: 70em) {
+  .address {
+    padding-top: 3em;
+  }
+}
+
+@media screen and (min-width: 70em) {
   .donate {
     position: absolute;
+    padding-top: 4.5em;
     right: 40%;
   }
 }
