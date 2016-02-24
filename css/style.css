@@ -113,6 +113,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 50em) {
+  .donate {
+    float: center;
+  }
+}
+
 .donate-btn {
   text-align: center;
   display: block;
