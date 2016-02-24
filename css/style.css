@@ -116,15 +116,16 @@ ul {
 .donate-btn {
   text-align: center;
   display: block;
-  padding: .5em 1em;
+  padding: .5em;
   border-radius: 5px;
   border: 1px solid #EFEEED;
   text-decoration: none;
   color: #EFEEED;
   font-size: 1.5em;
   background-color: #3DBB9A;
-  position: relative;
-  margin: 1em;
+  margin: auto;
+  width: 200px;
+  margin-bottom: 1em;
 }
 
 .donate-btn:hover {
@@ -139,7 +140,6 @@ ul {
 footer {
   display: block;
   background-color: #092928;
-  width: 100%;
   padding-bottom: 0;
 }
 
