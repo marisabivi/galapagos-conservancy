@@ -24,51 +24,58 @@ header{
 
 body {
     margin: 0;
+    font-family: $lato;
 }
+
+// footer
 
 h5 {
     text-align: center;
     color: $off-white;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 .copyright {
     color: $off-white;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     display: block;
     @media screen and (min-width: 38em) {
         text-align: right;
+        padding-top: 0;
     }
 }
 
 
 .icon {
     text-align: center;
-
-    @media screen and (min-width: 38em) {
-        text-align: center;
+			    @media screen and (min-width: 38em) {
+			        text-align: right;
+			        margin-right: 1em;
         }
-
     i {
         color: $teal;
         font-size: 2em;
         margin: .25em;
         display:inline;
-
             @media screen and (min-width: 38em) {
-        font-size: 3em;
-            margin-left: 1em;
-            margin-right: 1em;
+            font-size: 3em;
+            margin-left: .5em;
+            display: inline-block;
         }
-
     }
-
-
-
 }
 
 .graph {
+    @media screen and (min-width: 38em) {
+        float: left;
+    }
+    @media screen and (min-width: 70em) {
+        padding-top: 3em;
+    }
+}
+
+.graph-img {
     display: block;
     margin: auto;
     padding-bottom: .5em;
@@ -83,9 +90,6 @@ h5 {
 
 ul {
     list-style-type: none;
-    @media screen and (min-width: 38em) {
-        margin: 1em;
-    }
 }
 
 .stat-title {
@@ -94,18 +98,20 @@ ul {
     color: $off-white;
         @media screen and (min-width: 38em) {
         text-align: left;
-        margin: 2em;
+        margin-left: 1.5em;
+        margin-bottom: 1em;
         padding: 0;
     }
 }
 
 .graph-stat {
     text-align: center;
-    padding-right: 3em;
+    padding-right: 2em;
     color: $off-white;
     @media screen and (min-width: 38em) {
         text-align: center;
         float: left;
+
     }
 }
 
@@ -117,23 +123,36 @@ ul {
     @media screen and (min-width: 38em) {
         text-align: right;
     }
+    @media screen and (min-width: 70em) {
+        padding-top: 3em;
+    }
 }
 
-button {
+.donate {
+    @media screen and (min-width: 70em) {
+        position: absolute;
+        padding-top: 4.5em;
+        right: 40%;
+    }
+}
+
+.donate-btn {
     @include button($teal);
     position: relative;
     margin: 2em auto;
     right: .25em;
-        a{
+    a{
+    margin: auto;
+    width: 200px;
+    margin-bottom: 1em;
     text-decoration: none;
     color: $off-white;
     }
-
-
 }
 
 footer {
     display: block;
     background-color: $dark-green;
-    width: 100%;
+    padding-bottom: 0;
 }
+// footer
