@@ -6,8 +6,17 @@ body {
 
 h5 {
   text-align: center;
-  color: #EFEEED;
+  margin: 0 auto;
   padding-top: 2em;
+}
+
+.signin {
+  text-decoration: none;
+  color: #EFEEED;
+}
+
+.signin:hover {
+  color: #bcbcbc;
 }
 
 .copyright {

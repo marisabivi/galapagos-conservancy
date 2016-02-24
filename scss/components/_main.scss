@@ -7,10 +7,19 @@ body {
 
 h5 {
     text-align: center;
-    color: $off-white;
+    margin: 0 auto;
     padding-top: 2em;
+
 }
 
+.signin {
+    text-decoration: none;
+    color: $off-white;
+    &:hover {
+    color: $light-grey;
+    }
+}
+    
 .copyright {
     color: $off-white;
     text-align: center;
