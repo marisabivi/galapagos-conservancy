@@ -11,14 +11,15 @@
 </head>
 
 <body class="noscript">
-<div class="site-wrapper" data-state="slide-closed">
-<div class="sliding-canvas">
 
-<header>
+<header class="header">
 
-	<nav id="navigation" class="slide-menu navigation">
-    <div class="icon-hamberger"></div>
-  			<ul>
+  <div>
+    <i class="icon-hamberger collapse"></i>
+  </div>
+  
+	<nav id="navigation" role="navigation" class="panel navigation">
+  			<ul class="nav">
   					<li><a href="{{site.baseurl}}/about/">About</a></li>
   					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
   					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
@@ -26,13 +27,12 @@
   					<li><a href="{{site.baseurl}}/shop/">Shop</a></li>
   					<li><a href="{{site.baseurl}}/donate/">Donate</a></li>
         </ul>
-      </div>
-    </div>
 	</nav>
 
+</div> <!-- /sliding-canvas -->
+</div> <!-- /site-wrapper -->
+
 </header>
-</div> <!--site-wrapper -->
-</div> <!-- / sliding-canvas -->
 
 <main id="main">
 	{{content}}

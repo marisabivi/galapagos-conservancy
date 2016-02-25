@@ -1,7 +1,6 @@
-$(function(){
+var $btnCollapse = $('.collapse');
+var $panel = $('.panel');
 
-	$('body').removeClass('noscript');
-	$('.toggle-btn, .close-btn').click(function(){
-		toggleNav();
-	});
+$btnCollapse.on('click', function () {
+	$panel.toggleClass('js-panel');
 });

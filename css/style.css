@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700,400,400italic);
-header {
+.header {
   background-color: #092928;
   margin: 0;
   padding: 0;
@@ -13,13 +13,32 @@ header {
   display: block;
   text-align: center;
   text-decoration: none;
+  color: #fff;
+  padding-bottom: 10px;
 }
 
 .icon-hamberger {
   font-size: 35px;
-  text-align: right;
-  margin: .5em;
+  padding-right: 1em;
+  padding-top: .5em;
+  text-decoration: none;
   color: #fff;
+  display: block;
+  text-align: right;
+}
+
+.panel {
+  width: 100%;
+  background-color: #092928;
+  transform: translateY(0%);
+  transition: all 300ms linear;
+  display: none;
+  overflow: hidden;
+}
+
+.js-panel {
+  max-height: 10em;
+  display: block;
 }
 
 body {
