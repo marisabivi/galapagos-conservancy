@@ -9,17 +9,17 @@
     <link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-
 <body class="noscript">
+  <div class="site-wrapper" data-state="slide-closed">
+    <div class="sliding-canvas">
 
-<header class="header">
+    <header class="header">
+      <i class="icon-logo"> </i>
+  <a class="icon-hamberger i-menu" href="#main-menu"><span>menu</span><a/>
+	<nav class="navigation slide-menu">
+  <a class="icon-close i-close" href="#main-menu"><span>Close</span></a>
 
-  <div>
-    <i class="icon-hamberger collapse"></i>
-  </div>
-  
-	<nav id="navigation" role="navigation" class="panel navigation">
-  			<ul class="nav">
+        <ul class="list">
   					<li><a href="{{site.baseurl}}/about/">About</a></li>
   					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
   					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
@@ -28,10 +28,6 @@
   					<li><a href="{{site.baseurl}}/donate/">Donate</a></li>
         </ul>
 	</nav>
-
-</div> <!-- /sliding-canvas -->
-</div> <!-- /site-wrapper -->
-
 </header>
 
 <main id="main">
@@ -83,6 +79,8 @@
 
  <!-- /grid -->
 </footer>
+</div> <!-- /.sliding-canvas -->
+</div> <!-- /.site-wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
  <script src="js/index.js"></script>
 </body>
