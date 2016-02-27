@@ -9,25 +9,26 @@
     <link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
+<body class="noscript">
+  <div class="site-wrapper" data-state="slide-closed">
+    <div class="sliding-canvas">
 
-<body>
-<header>
-	<div class="grid">
-		<nav id="navigation">
 
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-				<ul>
-					<li><a href="{{site.baseurl}}/about/">About</a></li>
-					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
-					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
-					<li><a href="{{site.baseurl}}/news/">News</a></li>
-					<li><a href="{{site.baseurl}}/shop/">Shop</a></li>
-					<li><a href="{{site.baseurl}}/donate/">Donate</a></li>
-				</ul>
-			</div>
+    <header class="header">
+      <i class="icon-logo"> </i>
+  <a class="icon-hamberger i-menu" href="#main-menu"><span>menu</span><a/>
+	<nav class="navigation slide-menu">
+  <a class="icon-close i-close" href="#main-menu"><span>Close</span></a>
 
-		</nav>
-	</div>
+        <ul class="list">
+  					<li><a href="{{site.baseurl}}/about/">About</a></li>
+  					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
+  					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
+  					<li><a href="{{site.baseurl}}/news/">News</a></li>
+  					<li><a href="{{site.baseurl}}/shop/">Shop</a></li>
+  					<li><a href="{{site.baseurl}}/donate/">Donate</a></li>
+        </ul>
+	</nav>
 </header>
 
 <main id="main">
@@ -36,12 +37,13 @@
 
 <footer id="footer">
     <div class="donate">
+
         <h5><a class="signin" href="{{site.baseurl}}/signin/">Sign Up for Latest News</a></h5>
+
         <div class="donate-btn"><a href="{{site.baseurl}}/donate/">Donate</a>
         </div>
 
   </div>
-
 
 <div class="graph">
     <p class="stat-title">How Your Donations Help</p>
@@ -54,13 +56,6 @@
             <li>06% Management</li>
         </ul>
 </div>
-
-    <ul class="micro address">
-        <li>Galapagos Conservancy</li>
-        <li>11150 Fairfax Boulevard</li>
-        <li>Suite 408</li>
-        <li>Fairfax, VA, USA</li>
-    </ul>
 
 
 		<div class="icon">
@@ -78,6 +73,10 @@
 
  <!-- /grid -->
 </footer>
+
+</div> <!-- /.sliding-canvas -->
+</div> <!-- /.site-wrapper -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
  <script src="js/index.js"></script>
 </body>

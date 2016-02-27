@@ -1,3 +1,112 @@
+//header items
+.header{
+	background-color: $dark-green;
+}
+
+.icon-hamberger{
+	position: absolute;
+	right: .5em;
+	font-size: 35px;
+	padding-bottom: 1em;
+}
+
+.icon-logo{
+	position: absolute;
+	top: 10px;
+	float: left;
+	left: .5em;
+	padding-bottom: 1em;
+	color: $off-white;
+	font-size: 35px;
+}
+
+.navigation{
+	li{
+		&:hover{
+			border-bottom: 3px solid $teal;
+		}
+	}
+
+	a{
+		text-decoration: none;
+		color: $off-white;
+		display: block;
+		padding: .5em 1em;
+	}
+}
+
+.icon-hamberger,
+.icon-close{
+	float: right;
+	color: $off-white;
+	text-decoration: none;
+	height: 40px;
+	width: 40px;
+		&:before{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		padding: 13px 11px;
+	}
+	span{
+		@include element-invisible;
+	}
+}
+
+@media only screen and (max-width: 60em){
+	.site-wrapper{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		z-index: 100;
+		background-color: $dark-green;
+
+		.sliding-canvas{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			transform: translateX(0);
+			transition: all 300ms ease-in-out;
+		}
+		&[data-state="slide-open"] .sliding-canvas{
+			transform: translateX(-100%);
+		}
+		&[data-state="slide-open"]{
+			overflow: hidden;
+		}
+	}
+		.slide-menu{
+	    position: absolute;
+	    width: 100%;
+	    right: -100%;
+	    top: 0;
+	    bottom: 0;
+	    padding: 0;
+	    min-height: 800px;
+	  }
+
+  }
+
+	@media only screen and (min-width: 60em){
+	  .icon-hamberger,
+	  .icon-close{
+	    display: none;
+		&:before{
+			display: none;
+		}
+	}
+		.navigation{
+			text-align: center;
+		li{
+			display: inline-block;
+		}
+	}
+}
+	body.noscript .navigation{
+  position: static;
+  right: auto;
+}
+
 body {
     margin: 0;
     font-family: $lato;
@@ -9,7 +118,6 @@ h5 {
     text-align: center;
     margin: 0 auto;
     padding-top: 2em;
-
 }
 
 .signin {
@@ -19,7 +127,7 @@ h5 {
     color: $light-grey;
     }
 }
-    
+
 .copyright {
     color: $off-white;
     text-align: center;
@@ -34,28 +142,23 @@ h5 {
 
 .icon {
     text-align: center;
-    
+
     @media screen and (min-width: 38em) {
         text-align: right;
         margin-right: 1em;
         }
-
     i {
         color: $teal;
         font-size: 2em;
-        margin:.25em;
-        display: inline;
-        
+        margin: .25em;
+        display:inline;
+
             @media screen and (min-width: 38em) {
             font-size: 3em;
             margin-left: .5em;
             display: inline-block;
         }
-            
     }
-    
-   
-   
 }
 
 .graph {
@@ -65,7 +168,6 @@ h5 {
     @media screen and (min-width: 70em) {
         padding-top: 3em;
     }
-    
 }
 
 .graph-img {
@@ -73,9 +175,9 @@ h5 {
     margin: auto;
     padding-bottom: .5em;
     width: 8em;
-    
+
     @media screen and (min-width: 38em) {
-        margin-left: 6em; 
+        margin-left: 6em;
         padding-bottom: 1.5em;
         width: 6em;
     }
@@ -104,7 +206,6 @@ ul {
     @media screen and (min-width: 38em) {
         text-align: center;
         float: left;
-        
     }
 }
 
@@ -112,7 +213,7 @@ ul {
     text-align: center;
     padding-right: 3em;
     color: $off-white;
-    
+
     @media screen and (min-width: 38em) {
         text-align: right;
     }
@@ -128,22 +229,20 @@ ul {
         right: 40%;
     }
 }
-    
+
 .donate-btn {
     @include button($teal);
     margin: auto;
     width: 200px;
     margin-bottom: 1em;
-
-        a{ 
+    a{
     text-decoration: none;
     color: $off-white;
     }
-    
-        
 }
 
 footer {
     background-color: $dark-green;
-}
+    padding-bottom: 0;
+		}
 // footer
