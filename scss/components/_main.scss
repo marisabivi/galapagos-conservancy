@@ -22,8 +22,9 @@
 
 .navigation{
 	li{
+		border-bottom: 3px solid $dark-green;
 		&:hover{
-			border-bottom: 3px solid $teal;
+		border-bottom: 3px solid $teal;
 		}
 	}
 
@@ -81,10 +82,12 @@
 	    right: -100%;
 	    top: 0;
 	    bottom: 0;
-	    padding: 0;
 	    min-height: 800px;
+			@include zero;
+			.list{
+				padding: 1em;
+			}
 	  }
-
   }
 
 	@media only screen and (min-width: 60em){
@@ -101,6 +104,7 @@
 			display: inline-block;
 		}
 	}
+
 }
 	body.noscript .navigation{
   position: static;
@@ -165,8 +169,8 @@ h5 {
     @media screen and (min-width: 38em) {
         float: left;
     }
-    @media screen and (min-width: 70em) {
-        padding-top: 3em;
+    @media screen and (min-width: 60em) {
+        padding-top: 1em;
     }
 }
 
@@ -217,15 +221,14 @@ ul {
     @media screen and (min-width: 38em) {
         text-align: right;
     }
-    @media screen and (min-width: 70em) {
+    @media screen and (min-width: 60em) {
         padding-top: 3em;
     }
 }
 
 .donate {
-    @media screen and (min-width: 70em) {
+    @media screen and (min-width: 60em) {
         position: absolute;
-        padding-top: 4.5em;
         right: 40%;
     }
 }
@@ -243,6 +246,5 @@ ul {
 
 footer {
     background-color: $dark-green;
-    padding-bottom: 0;
 		}
 // footer
