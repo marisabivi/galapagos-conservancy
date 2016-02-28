@@ -1042,5 +1042,37 @@ sub {
 }
 
 .aboutwrapper {
-  padding: 1em;
+  padding: 2em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1em;
+  color: #3DBB9A;
+}
+
+.reports a {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.reports a:hover {
+  color: #d9464d;
+}
+
+.funding a {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.funding a:hover {
+  color: #d9464d;
+}
+
+.mlist {
+  list-style-type: circle;
 }
