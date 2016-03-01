@@ -1,0 +1,56 @@
+.bg{
+	background-color: $white;
+}
+
+.contain{
+	color: $teal;
+	text-align: center;
+	padding-top: .5em;
+}
+
+.input{
+	height: 30px;
+	width: 250px;
+	margin: 5px;
+	font-size: 13px;
+	border: none;
+	border-bottom: 1px solid $teal;
+	&:focus{
+	outline: none;
+	border-bottom: 1px solid $pink;
+	}
+}
+
+.btn-submit{
+	height: 30px;
+	width: 180px;
+	margin: 18px auto;
+	line-height: 30px;
+	background-color: $teal;
+	color: $off-white;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid $off-white;
+	&:hover{
+		background-color: darken($teal, 8%);
+	}
+}
+
+@media only screen and (min-width: 60em){
+	.left{
+		float: left;
+		padding-left: 1em;
+	}
+
+	.right{
+		float: right;
+	}
+
+	.divider{
+		border-right: 1px solid $grey;
+		@include zero;
+		padding: 1em;
+	}
+
+}
