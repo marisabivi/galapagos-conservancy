@@ -1,23 +1,43 @@
 ---
 layout: default
 ---
+<div class="grid bg">
 
-<div class="form-wrap">
-<div class="tab">
-  <h3 class="signup-tab"><a class="active" href="#signup-tab-content">Sign Up</a></h3>
-  <h3 class="login-tab"><a href="#login-tab-content">Login</a></h3>
-</div> <!-- /tab -->
+<div class="unit unit-s-1 unit-m-1-2 unit-l-2">
+    <div class="contain right  divider">
+      <h2>Sign Up</h2>
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="text" id="first_name" class="input" placeholder="First Name" autocomplete="off">
+    </div>
 
-<div class="tabs-content">
-  <div id="signup-tab-content" class="active">
-<form class="signup-form" action="" method="post">
-<input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
-<input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
-<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
-<input type="submit" class="button" value="Sign Up">
-</form>
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="text" id="last_name" class="input" placeholder="Last Name" autocomplete="off">
+    </div>
 
-<
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="email" id="email" class="input" placeholder="E-mail" autocomplete="off">
+    </div>
+
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="password" id="password" class="input" placeholder="Password" autocomplete="off">
+    </div>
+    <div class="btn-submit"><a href="{{site.baseurl}}/thankyou/">Submit</a></div>
   </div>
-</div> <!-- /tab content -->
-</div> <!-- /form-wrap -->
+</div>
+<div class="unit unit-s-1 unit-m-1-2 unit-l-2">
+  <div class="contain left">
+    <h2>Login</h2>
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="email" id="email" class="input" placeholder="E-mail" autocomplete="off">
+    </div>
+
+    <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <input type="password" id="password" class="input" placeholder="Password" autocomplete="off">
+    </div>
+
+    <div class="btn-submit">Login</div>
+
+    </div>
+  </div>
+
+</div>
