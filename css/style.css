@@ -2389,3 +2389,51 @@ sub {
     display: none;
   }
 }
+
+.galapagos {
+  padding: 2em;
+  padding-left: 12em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .galapagos {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .galapagos {
+    padding-right: 12em;
+  }
+}
+
+.galapagos li {
+  list-style-type: circle;
+}
+
+.galapagos .fixednav li {
+  list-style-type: none;
+}
+
+.gh1 {
+  text-align: center;
+}
+
+.gh2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.gh3 {
+  font-size: 1em;
+}
+
+.gh4 {
+  font-size: 1em;
+  color: #3DBB9A;
+}
+
+strong {
+  color: #3DBB9A;
+}
