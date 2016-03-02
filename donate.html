@@ -1,3 +1,60 @@
 ---
 layout: default
 ---
+<div class="bg">
+	<h3>Donation</h3>
+	<form>
+		<input type="text" name="first-name" placeholder="First Name"/>
+
+	  <input type="text" name="last-name" placeholder="Last Name"/>
+
+    <input type="text" name="address-1" placeholder="Address Line 1"/>
+
+    <input type="text" name="address-2" placeholder="Address Line 2"/>
+
+		<h5> Location </h5>
+			<div class="form-item">
+				<input id="country_selector" type="text">
+					<label for="country_selector" style="display:none;">Select a country here...</label>
+			</div>
+			<div class="form-item" style="display:none;">
+				<input type="text" id="country_selector_code" name="country_selector_code" data-countrycodeinput="1" readonly="readonly" placeholder="Selected country code will appear here" />
+					<label for="country_selector_code">...and the selected country code will be updated here</label>
+				</div>
+				<button type="submit" style="display:none;">Submit</button>
+
+
+			<!-- Load jQuery from CDN so can run demo immediately -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script src="build/js/countrySelect.min.js"></script>
+			<script>
+				$("#country_selector").countrySelect({
+					//defaultCountry: "jp",
+					//onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+					preferredCountries: ['ca', 'gb', 'us']
+				});
+			</script>
+
+			<input type="text" name="city" placeholder="city"/>
+
+State/Province/Region
+
+      <input type="text" name="zip" placeholder="Postal Code/ZIP"/>
+
+      <input type="text" name="t-number" placeholder="Telephone Number"/>
+
+		<h5>Card information</h5>
+      <input type="text" name="card-name" placeholder="Name on Card"/>
+
+      <input type="text" name="card-numb" placeholder="Card Number"/>
+
+Experiation date (Month, Year)
+			<input type="month" placeholder="MM"/>
+			<input type="year" placeholder="YYYY"/>
+      <input type="text" name="sec-numb" placeholder="Security Number (on the Back of card)"/>
+
+			<input type="number" placeholder="donation amount"/>
+			<radio> One time </radio>
+			<radio> Monthly </radio>
+	</form>
+</div>
