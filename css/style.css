@@ -16,20 +16,20 @@
   font-size: 35px;
 }
 
-.icon-logo {
+.logo {
   position: relative;
   top: 10px;
   float: left;
   left: .5em;
-  color: #EFEEED;
-  font-size: 35px;
+  width: 7em;
 }
 
 .navigation ul {
-  padding: 0;
+  padding: 1em;
 }
 
 .navigation li {
+  padding: 0;
   border-bottom: 3px solid #092928;
 }
 

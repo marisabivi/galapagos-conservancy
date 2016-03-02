@@ -15,20 +15,20 @@
 	font-size: 35px;
 }
 
-.icon-logo{
+.logo{
   position: relative;
 	top: 10px;
 	float: left;
 	left: .5em;
-	color: $off-white;
-	font-size: 35px;
+	width: 7em;
 }
 
 .navigation{
 	ul{
-		padding: 0;
+		padding: 1em;
 	}
 	li{
+		padding: 0;
 		border-bottom: 3px solid $dark-green;
 		&:hover{
 		border-bottom: 3px solid $teal;
