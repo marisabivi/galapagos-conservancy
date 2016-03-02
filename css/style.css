@@ -2206,7 +2206,7 @@ sub {
 
 @media only screen and (max-width: 38em) {
   .about {
-    padding: none;
+    padding-left: none;
   }
 }
 
