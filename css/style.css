@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700,400,400italic);
 .header {
   background-color: #092928;
-  overflow: hidden;
 }
 
 .list {
@@ -66,12 +65,15 @@
 }
 
 @media only screen and (max-width: 60em) {
+  .header {
+    overflow: hidden;
+    display: block;
+  }
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100;
-    background-color: #092928;
   }
   .site-wrapper .sliding-canvas {
     width: 100%;
@@ -1095,7 +1097,6 @@ sub {
 
 p {
   margin: 0;
-  display: block;
   text-align: center;
   font-size: 15px;
 }
@@ -1116,7 +1117,6 @@ p a:hover {
 
 .text {
   text-align: center;
-  display: block;
   margin: 1.5em;
 }
 

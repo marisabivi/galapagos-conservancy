@@ -1,7 +1,7 @@
 //header items
 .header{
 	background-color: $dark-green;
-	overflow: hidden;
+
 }
 
 .list{
@@ -48,12 +48,17 @@
 }
 
 @media only screen and (max-width: 60em){
+
+	.header{
+			overflow: hidden;
+			display: block;
+	}
+
 	.site-wrapper{
 		position: relative;
 		overflow: hidden;
 		width: 100%;
 		z-index: 100;
-		background-color: $dark-green;
 
 		.sliding-canvas{
 			width: 100%;
@@ -157,7 +162,7 @@ h5 {
             display: inline-block;
         }
     }
-    
+
 }
 
 .graph {
@@ -204,7 +209,7 @@ ul {
     color: $off-white;
     @media screen and (min-width: 38em) {
         text-align: center;
-        
+
     }
 
 }
