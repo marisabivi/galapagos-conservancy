@@ -242,7 +242,6 @@ ul {
 }
 
 .donate-btn {
-    display: block;
     @include button($teal);
     margin: auto;
     width: 200px;
