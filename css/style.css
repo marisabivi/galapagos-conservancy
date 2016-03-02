@@ -2437,3 +2437,31 @@ sub {
 strong {
   color: #3DBB9A;
 }
+
+a {
+  text-decoration: none;
+}
+
+.gh2island {
+  text-align: left;
+  font-size: 1.5em;
+  color: #3DBB9A;
+}
+
+.gh2island:hover {
+  color: #339f82;
+}
+
+.gh3island {
+  font-size: 2em;
+  color: #3DBB9A;
+}
+
+.gh4island {
+  font-size: 1.5em;
+  color: #3DBB9A;
+}
+
+.islandinfo li {
+  list-style-type: none;
+}

@@ -39,3 +39,33 @@ strong {
     color: $teal;
 }
 
+a {
+    text-decoration: none;
+}
+
+.gh2island{
+    text-align: left;
+    font-size: 1.5em;
+    color: $teal;
+    &:hover {
+        color: $dark-teal;
+    }
+}
+
+
+.gh3island {
+    font-size: 2em;
+    color: $teal;
+}
+
+.gh4island {
+    font-size: 1.5em;
+    color: $teal;
+}
+
+.islandinfo {
+    li {
+        list-style-type: none;
+    }
+}
+
