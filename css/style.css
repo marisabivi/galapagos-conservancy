@@ -238,11 +238,11 @@ ul {
 @media screen and (min-width: 38em) {
   .graph-stat {
     text-align: center;
-    float: left;
   }
 }
 
 .address {
+  font-size: .8em;
   text-align: center;
   padding-right: 3em;
   color: #EFEEED;
@@ -264,6 +264,7 @@ ul {
   .donate {
     position: absolute;
     right: 40%;
+    padding-top: 3em;
   }
 }
 
