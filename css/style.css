@@ -915,3 +915,13 @@ sub {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+
+.news-img {
+  width: 100%;
+}
+
+.news-h5 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
