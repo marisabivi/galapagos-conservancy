@@ -2370,3 +2370,177 @@ sub {
     padding: 1em;
   }
 }
+
+.billboard_i {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard_i {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+.idonate-btn {
+  color: #EFEEED;
+  background-color: #3DBB9A;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.idonate-btn:hover {
+  background-color: #339c81;
+}
+
+.idonate-btn div {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.idonate-btn a {
+  color: #DBDBDB;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.idonate-btn a:link {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.isign-btn {
+  color: #EFEEED;
+  background-color: #F16067;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.isign-btn:hover {
+  background-color: #ee3b43;
+}
+
+.isign-btn div {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.i-carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.i-carousel .i-panes {
+  padding: 0;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  list-style-type: none;
+  animation: carousel 30s infinite;
+}
+
+.i-carousel .i-panes > li {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+
+.i-carousel img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 38em) {
+  .i-carousel {
+    height: 60vh;
+  }
+  .i-carousel img {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .i-carousel {
+    height: 60vh;
+  }
+  .i-carousel img {
+    height: 60vh;
+  }
+}
+
+.i-about {
+  padding: .5em;
+}
+
+.i-about h2 {
+  margin: 0;
+}
+
+.i-about p {
+  padding-left: .5em;
+}
