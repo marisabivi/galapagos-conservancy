@@ -1,21 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700,400,400italic);
 .header {
   background-color: #092928;
+  overflow: hidden;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
 }
 
 .icon-hamberger {
-  position: absolute;
+  position: relative;
   right: .5em;
   font-size: 35px;
-  padding-bottom: 1em;
 }
 
 .icon-logo {
-  position: absolute;
+  position: relative;
   top: 10px;
   float: left;
   left: .5em;
-  padding-bottom: 1em;
   color: #EFEEED;
   font-size: 35px;
 }
@@ -1034,4 +1038,116 @@ sub {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
+}
+
+.bg {
+  background-color: #fff;
+}
+
+.contain {
+  color: #3DBB9A;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.input {
+  height: 30px;
+  width: 250px;
+  margin: 5px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid #3DBB9A;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid #F16067;
+}
+
+.btn-submit {
+  height: 30px;
+  width: 180px;
+  margin: 18px auto;
+  line-height: 30px;
+  background-color: #3DBB9A;
+  color: #EFEEED;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #EFEEED;
+}
+
+.btn-submit:hover {
+  background-color: #339c81;
+}
+
+.btn-submit:focus {
+  color: #EFEEED;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.btn-submit a {
+  color: #EFEEED;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+p a {
+  color: #DBDBDB;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+p a:hover {
+  color: #000;
+}
+
+.b-0 {
+  margin-bottom: 0;
+}
+
+.text {
+  text-align: center;
+  display: block;
+  margin: 1.5em;
+}
+
+.text h1 {
+  color: #3DBB9A;
+  margin: 0;
+  font-size: 3em;
+}
+
+.text p {
+  color: #000;
+}
+
+.check {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 32em) {
+  .left {
+    float: left;
+    padding-left: 1em;
+  }
+  .right {
+    float: right;
+  }
+  .divider {
+    border-right: 1px solid #DBDBDB;
+    padding: 0;
+    margin: 0;
+    padding: 1em;
+  }
 }
