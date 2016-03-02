@@ -2,6 +2,9 @@
     padding: 2em;
     padding-left: 12em;
     text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: none;
+    }
 
 }
 
@@ -44,7 +47,7 @@
 .fixednav {
     border-radius: 5px;
     position: fixed;
-    top: 3.7em;
+    top: 4.1em;
     width: 8em;
     padding:1em;
     padding-left: 2.2em;
