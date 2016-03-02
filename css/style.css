@@ -2305,20 +2305,20 @@ sub {
   list-style-type: none;
 }
 
-p {
+.p {
   margin: 0;
   display: block;
   text-align: center;
   font-size: 15px;
 }
 
-p a {
+.p a {
   color: #DBDBDB;
   text-decoration: none;
   list-style-type: none;
 }
 
-p a:hover {
+.p a:hover {
   color: #000;
 }
 
