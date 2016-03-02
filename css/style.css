@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700,400,400italic);
 .header {
   background-color: #092928;
-  overflow: hidden;
+  height: 4.1em;
 }
 
 .list {
   padding: 0;
   margin: 0;
+  background-color: #092928;
 }
 
 .icon-hamberger {
@@ -15,16 +16,20 @@
   font-size: 35px;
 }
 
-.icon-logo {
+.logo {
   position: relative;
   top: 10px;
   float: left;
   left: .5em;
-  color: #EFEEED;
-  font-size: 35px;
+  width: 7em;
+}
+
+.navigation ul {
+  padding: 1em;
 }
 
 .navigation li {
+  padding: 0;
   border-bottom: 3px solid #092928;
 }
 
@@ -32,7 +37,8 @@
   border-bottom: 3px solid #3DBB9A;
 }
 
-.navigation a {
+.navigation li a {
+  display: block;
   text-decoration: none;
   color: #EFEEED;
   display: block;
@@ -70,13 +76,13 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    z-index: 100;
-    background-color: #092928;
+    z-index: 2;
   }
   .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
     position: relative;
+    background-color: #092928;
     transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
@@ -111,7 +117,8 @@
     display: none;
   }
   .navigation {
-    text-align: center;
+    text-align: right;
+    padding-right: 2em;
   }
   .navigation li {
     display: inline-block;
