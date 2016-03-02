@@ -1,11 +1,10 @@
 .about {
-    text-align: center;
-    padding-top: 4em;
-
+    padding: 2em;
+    padding-left: 12em;
 }
 
-.aboutwrapper {
-    padding: 2em;
+h1 {
+    text-align: center;
 }
 
 h2 {
@@ -56,4 +55,5 @@ h4 {
         color: $dark-teal;
         }
     }
+
 }
