@@ -1043,6 +1043,7 @@ sub {
 .about {
   padding: 2em;
   padding-left: 12em;
+  text-align: left;
 }
 
 .h1about {
