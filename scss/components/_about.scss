@@ -41,7 +41,19 @@ h4 {
 }
 
 .fixednav {
+    border-radius: 5px;
     position: fixed;
-    top: 3em;
+    top: 3.7em;
+    width: 8em;
     padding:1em;
+    padding-left: 2.2em;
+    left:-5px;
+    background-color: $off-white;
+    a {
+        color: $teal;
+        text-decoration: none;
+        &:hover {
+        color: $dark-teal;
+        }
+    }
 }

@@ -1078,7 +1078,21 @@ h4 {
 }
 
 .fixednav {
+  border-radius: 5px;
   position: fixed;
-  top: 3em;
+  top: 3.7em;
+  width: 8em;
   padding: 1em;
+  padding-left: 2.2em;
+  left: -5px;
+  background-color: #EFEEED;
+}
+
+.fixednav a {
+  color: #3DBB9A;
+  text-decoration: none;
+}
+
+.fixednav a:hover {
+  color: #339f82;
 }
