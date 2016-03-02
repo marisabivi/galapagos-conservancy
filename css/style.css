@@ -1041,16 +1041,16 @@ sub {
   padding-left: 12em;
 }
 
-h1 {
+.h1about {
   text-align: center;
 }
 
-h2 {
+.h2about {
   text-align: center;
   font-size: 2em;
 }
 
-h4 {
+.h4about {
   font-size: 1em;
   color: #3DBB9A;
 }
