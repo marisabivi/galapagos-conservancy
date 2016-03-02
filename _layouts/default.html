@@ -14,10 +14,12 @@
 
   <div class="site-wrapper" data-state="slide-closed">
     <div class="sliding-canvas">
+<header class="header">
 
-      <i href="{{site.baseurl}}/index/" class="icon-logo"> </i>
-  <a class="icon-hamberger i-menu" href="#main-menu"><span>menu</span><a/>
-	<nav class="navigation slide-menu header">
+<a href="{{site.baseurl}}/#/"><img src="{{site.baseurl}}/img/logo.svg" alt="turtle logo" class="logo"></a>
+
+<a class="icon-hamberger i-menu" href="#main-menu"><span>menu</span><a/>
+	<nav class="navigation slide-menu">
   <a class="icon-close i-close" href="#main-menu"><span>Close</span></a>
 
         <ul class="list">
@@ -30,6 +32,7 @@
             <li><a href="{{site.baseurl}}/signin/">Sign In</a></li>
         </ul>
 	</nav>
+</header>
 
 <main id="main">
 	{{content}}

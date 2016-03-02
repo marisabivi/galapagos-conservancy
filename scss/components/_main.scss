@@ -1,11 +1,12 @@
 //header items
 .header{
 	background-color: $dark-green;
-
+	height:4.1em;
 }
 
 .list{
 	@include zero;
+	background-color: $dark-green;
 }
 
 .icon-hamberger{
@@ -14,29 +15,32 @@
 	font-size: 35px;
 }
 
-.icon-logo{
+.logo{
   position: relative;
 	top: 10px;
 	float: left;
 	left: .5em;
-	color: $off-white;
-	font-size: 35px;
+	width: 7em;
 }
 
 .navigation{
+	ul{
+		padding: 1em;
+	}
 	li{
+		padding: 0;
 		border-bottom: 3px solid $dark-green;
 		&:hover{
 		border-bottom: 3px solid $teal;
 		}
-	}
-
 	a{
+		display: block;
 		text-decoration: none;
 		color: $off-white;
 		display: block;
 		padding: .5em 1em;
 	}
+ }
 }
 
 .icon-hamberger,
@@ -64,6 +68,7 @@
 			width: 100%;
 			height: 100%;
 			position: relative;
+			background-color: $dark-green;
 			transform: translateX(0);
 			transition: all 300ms ease-in-out;
 		}
@@ -97,7 +102,8 @@
 		}
 	}
 		.navigation{
-			text-align: center;
+			text-align: right;
+			padding-right: 2em;
 		li{
 			display: inline-block;
 		}
@@ -113,6 +119,7 @@ body {
     margin: 0;
     font-family: $lato;
 }
+
 
 // footer
 
