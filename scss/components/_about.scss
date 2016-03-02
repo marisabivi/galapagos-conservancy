@@ -1,6 +1,7 @@
 .about {
     padding: 2em;
     padding-left: 12em;
+
 }
 
 .h1about {
@@ -54,6 +55,9 @@
         &:hover {
         color: $dark-teal;
         }
+    }
+    @media only screen and (max-width: 38em){
+        display:none;
     }
 
 }

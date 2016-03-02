@@ -1096,3 +1096,9 @@ sub {
 .fixednav a:hover {
   color: #339f82;
 }
+
+@media only screen and (max-width: 38em) {
+  .fixednav {
+    display: none;
+  }
+}
