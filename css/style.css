@@ -1095,20 +1095,26 @@ sub {
   list-style-type: none;
 }
 
-p {
+.p {
   margin: 0;
+  display: block;
   text-align: center;
   font-size: 15px;
 }
 
-p a {
+.p a {
   color: #DBDBDB;
   text-decoration: none;
   list-style-type: none;
 }
 
-p a:hover {
+.p a:hover {
   color: #000;
+}
+
+.p a:focus {
+  text-decoration: none;
+  color: #F16067;
 }
 
 .b-0 {
@@ -1117,6 +1123,7 @@ p a:hover {
 
 .text {
   text-align: center;
+  display: block;
   margin: 1.5em;
 }
 
@@ -1132,7 +1139,7 @@ p a:hover {
 
 .check {
   display: block;
-  text-align: left;
+  text-align: center;
   font-size: 15px;
 }
 
