@@ -59,6 +59,10 @@
 		&:hover{
 			color: $black;
 		}
+		&:focus{
+			text-decoration: none;
+			color: $pink;
+		}
 	}
 }
 
@@ -78,12 +82,12 @@
 	}
 	p{
 		color: $black;
+
 	}
 }
 
 .check{
-	display: block;
-	text-align: left;
+	text-align: center;
 	font-size: 15px;
 }
 
