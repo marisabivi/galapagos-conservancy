@@ -157,6 +157,9 @@ h5 {
         font-size: 2em;
         margin: .25em;
         display:inline;
+        &:hover {
+            color: $dark-teal;
+        }
 
             @media screen and (min-width: 38em) {
             font-size: 3em;

@@ -182,6 +182,10 @@ h5 {
   display: inline;
 }
 
+.icon i:hover {
+  color: #339f82;
+}
+
 @media screen and (min-width: 38em) {
   .icon i {
     font-size: 3em;
