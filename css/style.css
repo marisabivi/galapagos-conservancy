@@ -1033,7 +1033,13 @@ sub {
 }
 
 .news-form-name {
-  width: 50%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+  .news-form-name {
+    width: 50%;
+  }
 }
 
 .news-form-comment {
@@ -1068,4 +1074,21 @@ sub {
   color: #3DBB9A;
   font-size: 0.7901em;
   margin: 0;
+}
+
+.news-btn-comment {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  width: 100px;
+}
+
+.news-btn-comment:hover {
+  background-color: #339f82;
 }
