@@ -991,7 +991,14 @@ sub {
   font-size: 2em;
 }
 
+.news-h3 {
+  text-align: center;
+  font-size: 1.1250em;
+  color: #3DBB9A;
+}
+
 .news-h4 {
+  text-align: center;
   font-size: 1em;
   color: #3DBB9A;
 }
