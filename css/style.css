@@ -1020,8 +1020,16 @@ sub {
   color: #d9464d;
 }
 
+.news-comments {
+  color: #3DBB9A;
+}
+
 .news-form {
   width: 100%;
+}
+
+.news-add-comment {
+  color: #3DBB9A;
 }
 
 .news-form-name {
@@ -1051,11 +1059,13 @@ sub {
 
 .news-form-list-comment {
   margin: 0;
-  font-size: 1em;
-  padding: 0.5em 0;
+  font-size: 0.7901em;
+  padding: 0;
   position: relative;
 }
 
 .news-form-list-name {
-  color: red;
+  color: #3DBB9A;
+  font-size: 0.7901em;
+  margin: 0;
 }

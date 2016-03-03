@@ -89,8 +89,16 @@
     }
 }
 
+.news-comments {
+    color: $teal;
+}
+
 .news-form {
     width: 100%;
+}
+
+.news-add-comment {
+    color: $teal;
 }
 
 .news-form-name {
@@ -120,11 +128,17 @@
 
 .news-form-list-comment {
     margin: 0;
-    font-size: 1em;
-    padding: 0.5em 0;
+    font-size: 0.7901em;
+    padding: 0;
     position: relative;
 }
 
 .news-form-list-name {
-    color: red;
+    color: $teal;
+    font-size: 0.7901em;
+    margin: 0;
+}
+
+.news-btn-comment {
+    
 }
