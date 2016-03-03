@@ -2200,6 +2200,67 @@ sub {
   margin-left: 38px;
 }
 
+.about {
+  padding: 2em;
+  padding-left: 12em;
+}
+
+.h1about {
+  text-align: center;
+}
+
+.h2about {
+  text-align: center;
+  font-size: 2em;
+}
+
+.h4about {
+  font-size: 1em;
+  color: #3DBB9A;
+}
+
+.reports a {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.reports a:hover {
+  color: #d9464d;
+}
+
+.funding a {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.funding a:hover {
+  color: #d9464d;
+}
+
+.mlist {
+  list-style-type: disc;
+}
+
+.fixednav {
+  border-radius: 5px;
+  position: fixed;
+  top: 3.7em;
+  width: 8em;
+  padding: 1em;
+  padding-left: 2.2em;
+  left: -5px;
+  background-color: #EFEEED;
+}
+
+.fixednav a {
+  color: #3DBB9A;
+  text-decoration: none;
+}
+
+.fixednav a:hover {
+  color: #339f82;
+}
+
 .bg {
   background-color: #fff;
 }
