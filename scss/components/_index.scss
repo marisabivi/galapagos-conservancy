@@ -39,14 +39,15 @@ a{
 
 .isign-btn{
   color: $off-white;
-  background-color: $pink;
+  background-color: $teal;
   width: 100%;
   border: none;
   height: 50px;
   padding: 0;
   font-size: 25px;
+  border-left: 1px solid $grey;
   &:hover{
-    background-color: darken($pink, 8%);
+    background-color: darken($teal, 8%);
   }
   div{
     overflow: hidden;
@@ -124,7 +125,6 @@ a{
 }
 
 .i-about{
-  padding: .5em;
   a{
     border: none;
     text-decoration: none;
@@ -149,8 +149,16 @@ a{
 .news-img{
   width: 100%;
   display: inline-block;
+}
 
-  @media only screen and (min-width: 60em){
-    margin: .5em;
+
+  .bucket{
+    @include padding;
+  }
+
+
+@media only screen and (max-width: 60em){
+  .text-bucket{
+    @include padding;
   }
 }

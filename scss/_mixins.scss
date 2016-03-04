@@ -47,3 +47,12 @@
     padding: 13px 11px;
  }
 }
+
+@mixin padding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@mixin img {
+  width: 100%;
+}

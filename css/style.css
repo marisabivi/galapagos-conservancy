@@ -2549,16 +2549,17 @@ sub {
 
 .isign-btn {
   color: #EFEEED;
-  background-color: #F16067;
+  background-color: #3DBB9A;
   width: 100%;
   border: none;
   height: 50px;
   padding: 0;
   font-size: 25px;
+  border-left: 1px solid #DBDBDB;
 }
 
 .isign-btn:hover {
-  background-color: #ee3b43;
+  background-color: #339c81;
 }
 
 .isign-btn div {
@@ -2675,10 +2676,6 @@ sub {
   }
 }
 
-.i-about {
-  padding: .5em;
-}
-
 .i-about a {
   border: none;
   text-decoration: none;
@@ -2707,9 +2704,15 @@ sub {
   display: inline-block;
 }
 
-@media only screen and (min-width: 60em) {
-  .news-img {
-    margin: .5em;
+.bucket {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+@media only screen and (max-width: 60em) {
+  .text-bucket {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
