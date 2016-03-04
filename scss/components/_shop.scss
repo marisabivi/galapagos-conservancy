@@ -8,12 +8,22 @@
     width: 100%;
 }
 
+.shop-h1 {
+    color: $pink;
+    text-decoration: none;
+    font-family: $lato;
+}
 
 .shop-h2 {
-    margin-bottom: -10px;
     text-align: center;
+    color: $pink;
     text-decoration: none;
-    font-family: 'lato';
+    font-family: $lato;
+}
+
+.shop-paragraph {
+    color: $black;
+    font-family: $lato;
 }
 
 .shop-banner {

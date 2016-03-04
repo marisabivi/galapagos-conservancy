@@ -1063,11 +1063,22 @@ sub {
   width: 100%;
 }
 
-.shop-h2 {
-  margin-bottom: -10px;
-  text-align: center;
+.shop-h1 {
+  color: #F16067;
   text-decoration: none;
-  font-family: 'lato';
+  font-family: Lato, sans-serif;
+}
+
+.shop-h2 {
+  text-align: center;
+  color: #F16067;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
+.shop-paragraph {
+  color: #000;
+  font-family: Lato, sans-serif;
 }
 
 .shop-banner {
