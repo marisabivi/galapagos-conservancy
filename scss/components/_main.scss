@@ -1,7 +1,120 @@
+//header items
+.header{
+	background-color: $dark-green;
+	height:4.1em;
+}
+
+.list{
+	@include zero;
+	background-color: $dark-green;
+}
+
+.icon-hamberger{
+	position: relative;
+	right: .5em;
+	font-size: 35px;
+}
+
+.logo{
+  position: relative;
+	top: 10px;
+	float: left;
+	left: .5em;
+	width: 7em;
+}
+
+.navigation{
+	ul{
+		padding: 1em;
+	}
+	li{
+		padding: 0;
+		border-bottom: 3px solid $dark-green;
+		&:hover{
+		border-bottom: 3px solid $teal;
+		}
+	a{
+		display: block;
+		text-decoration: none;
+		color: $off-white;
+		display: block;
+		padding: .5em 1em;
+	}
+ }
+}
+
+.icon-hamberger,
+.icon-close{
+ @include icon-button;
+	span{
+		@include element-invisible;
+	}
+}
+
+@media only screen and (max-width: 60em){
+
+	.site-wrapper{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		z-index: 2;
+
+		.sliding-canvas{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			background-color: $dark-green;
+			transform: translateX(0);
+			transition: all 300ms ease-in-out;
+		}
+		&[data-state="slide-open"] .sliding-canvas{
+			transform: translateX(-100%);
+		}
+		&[data-state="slide-open"]{
+			overflow: hidden;
+		}
+	}
+		.slide-menu{
+	    position: absolute;
+	    width: 100%;
+	    right: -100%;
+	    top: 0;
+	    bottom: 0;
+	    min-height: 800px;
+			@include zero;
+			.list{
+				padding: 1em;
+			}
+	  }
+  }
+
+	@media only screen and (min-width: 60em){
+	  .icon-hamberger,
+	  .icon-close{
+	    display: none;
+		&:before{
+			display: none;
+		}
+	}
+		.navigation{
+			text-align: right;
+			padding-right: 2em;
+		li{
+			display: inline-block;
+		}
+	}
+
+}
+	body.noscript .navigation{
+  position: static;
+  right: auto;
+}
+
 body {
     margin: 0;
     font-family: $lato;
 }
+
 
 // footer
 
@@ -9,7 +122,6 @@ h5 {
     text-align: center;
     margin: 0 auto;
     padding-top: 2em;
-
 }
 
 .signin {
@@ -19,7 +131,7 @@ h5 {
     color: $light-grey;
     }
 }
-    
+
 .copyright {
     color: $off-white;
     text-align: center;
@@ -34,7 +146,7 @@ h5 {
 
 .icon {
     text-align: center;
-    
+
     @media screen and (min-width: 38em) {
         text-align: right;
         margin-right: 1em;
@@ -43,29 +155,28 @@ h5 {
     i {
         color: $teal;
         font-size: 2em;
-        margin:.25em;
-        display: inline;
-        
+        margin: .25em;
+        display:inline;
+        &:hover {
+            color: $dark-teal;
+        }
+
             @media screen and (min-width: 38em) {
             font-size: 3em;
             margin-left: .5em;
             display: inline-block;
         }
-            
     }
-    
-   
-   
+
 }
 
 .graph {
     @media screen and (min-width: 38em) {
         float: left;
     }
-    @media screen and (min-width: 70em) {
-        padding-top: 3em;
+    @media screen and (min-width: 60em) {
+        padding-top: 1em;
     }
-    
 }
 
 .graph-img {
@@ -73,9 +184,9 @@ h5 {
     margin: auto;
     padding-bottom: .5em;
     width: 8em;
-    
+
     @media screen and (min-width: 38em) {
-        margin-left: 6em; 
+        margin-left: 6em;
         padding-bottom: 1.5em;
         width: 6em;
     }
@@ -103,47 +214,45 @@ ul {
     color: $off-white;
     @media screen and (min-width: 38em) {
         text-align: center;
-        float: left;
-        
+
     }
+
 }
 
 .address {
+    font-size:.8em;
     text-align: center;
     padding-right: 3em;
     color: $off-white;
-    
+
     @media screen and (min-width: 38em) {
         text-align: right;
     }
-    @media screen and (min-width: 70em) {
+    @media screen and (min-width: 60em) {
         padding-top: 3em;
     }
 }
 
 .donate {
-    @media screen and (min-width: 70em) {
+    @media screen and (min-width: 60em) {
         position: absolute;
-        padding-top: 4.5em;
         right: 40%;
+        padding-top: 3em;
     }
 }
-    
+
 .donate-btn {
     @include button($teal);
     margin: auto;
     width: 200px;
     margin-bottom: 1em;
-
-        a{ 
+    a{
     text-decoration: none;
     color: $off-white;
     }
-    
-        
 }
 
 footer {
     background-color: $dark-green;
-}
+		}
 // footer
