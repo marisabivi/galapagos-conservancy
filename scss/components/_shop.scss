@@ -1,0 +1,30 @@
+.article {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: block;
+    width: 100%;
+}
+
+
+.shop-h2 {
+    margin-bottom: -10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'lato';
+}
+
+.shop-banner {
+    padding: 0 0;
+    margin: 0 0;
+    background-size: cover;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.shop-piece {
+    box-sizing: border-box;
+}
