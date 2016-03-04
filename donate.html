@@ -2,23 +2,19 @@
 layout: default
 ---
 <div class="bg contain">
-	<h3>Donation</h3>
+	<h2>Donation</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2">
 			<form>
-				<h5>My information<h5>
-				<input type="name" name="first-name" class="input" placeholder="First Name"/>
-
-	  		<input type="name" name="last-name" class="input" placeholder="Last Name"/>
-
-    		<input type="text" name="address-1" class="input" placeholder="Address Line 1"/>
-
-    		<input type="text" name="address-2" class="input" placeholder="Address Line 2"/>
-
-				<input type="email" name="email" class="input" placeholder="E-mail"/>
+				<h5>My Information<h5>
+				<p><input type="name" name="first-name" class="input" placeholder="First Name"/></p>
+	  		<p><input type="name" name="last-name" class="input" placeholder="Last Name"/></p>
+    		<p><input type="text" name="address-1" class="input" placeholder="Address Line 1"/></p><p>
+    		<p><input type="text" name="address-2" class="input" placeholder="Address Line 2"/></p><p>
+				<p><input type="email" name="email" class="input" placeholder="E-mail"/></p><p>
 
 
-				<h5> Location </h5>
+				<h5>My Location </h5>
 				<div class="form-item">
 					<input id="country_selector" class="input" type="text" placeholder="Country">
 						<label for="country_selector" style="display:none;"></label>
@@ -41,26 +37,23 @@ layout: default
 					});
 				</script>
 
-				<input type="text" name="city" class="input" placeholder="City"/>
-
-				<input type="text" name="region" class="input" placeholder="State/Province/Region"/>
-
-      	<input type="text" name="zip" class="input" placeholder="Postal Code/ZIP"/>
-
-      	<input type="tel" name="t-number" class="input" placeholder="Telephone Number"/>
+				<p><input type="text" name="city" class="input" placeholder="City"/></p>
+				<p><input type="text" name="region" class="input" placeholder="State/Province/Region"/></p>
+      	<p><input type="text" name="zip" class="input" placeholder="Postal Code/ZIP"/></p>
+      	<p><input type="tel" name="t-number" class="input" placeholder="Telephone Number"/></p>
 	</div>
 
 	<div class="unit unit-s-1 unit-m-1-2">
-				<h5>Card information</h5>
-      	<input type="text" name="card-name" class="input" placeholder="Name on Card"/>
-      	<input type="text" name="card-numb" class="input" placeholder="Card Number"/>
+				<h5>Card Information</h5>
+      	<p><input type="text" name="card-name" class="input" placeholder="Name on Card"/></p>
+      	<p><input type="text" name="card-numb" class="input" placeholder="Card Number"/></p>
 
 				<p>Experiation date (Month, Year)</p>
-				<input type="month" class="input"/>
-      	<input type="text" name="sec-numb" class="input" placeholder="Security Number (on the back of card)"/>
+				<p><input type="month" class="input"/></p>
+      	<p><input type="text" name="sec-numb" class="input" placeholder="Security Number (on the back of card)"/></p>
 
 
-				<p>$<input type="number" class="input" placeholder="Donation Amount"/></p>
+				<p>$<input type="number" class="input" placeholder="Donation Amount" min="0"/></p>
 			<div class="unit unit-s-1 unit-m-1 unit-l-1">
 				<input type="checkbox" class="checkbox">
 					<lable for="once">One time</lable>
@@ -72,5 +65,7 @@ layout: default
 			</form>
 		</div>
 	</div>
-	<div class="btn-submit"><a href="{{site.baseurl}}/thankyou/">Submit</a></div>
+	<div class="pad-bottom">
+		<div class="btn-submit"><a href="{{site.baseurl}}/thankyou/">Submit</a></div>
+	</div>
 </div>
