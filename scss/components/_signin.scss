@@ -47,7 +47,7 @@
 	}
 }
 
-p{
+.p{
 	margin: 0;
 	display: block;
 	text-align: center;
@@ -102,5 +102,4 @@ p{
 		@include zero;
 		padding: 1em;
 	}
-
 }
