@@ -58,7 +58,7 @@ html {
 	}
 }
 
-@media only screen and (max-width: 60em){
+@media only screen and (max-width: 38em){
 
 	.site-wrapper{
 		position: relative;
@@ -95,7 +95,7 @@ html {
 	  }
   }
 
-	@media only screen and (min-width: 60em){
+	@media only screen and (min-width: 38em){
 	  .icon-hamberger,
 	  .icon-close{
 	    display: none;
@@ -112,6 +112,20 @@ html {
 	}
 
 }
+
+.icon-search{
+  color: $off-white;
+}
+
+@media only screen and (min-width: 38em) and (max-width: 50em){
+  .list{
+    font-size: 15px;
+    a{
+      padding: 0;
+    }
+  }
+}
+
 	body.noscript .navigation{
   position: static;
   right: auto;

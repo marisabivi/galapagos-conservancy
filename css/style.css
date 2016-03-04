@@ -79,7 +79,7 @@ html {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 38em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -115,7 +115,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
   .icon-hamberger,
   .icon-close {
     display: none;
@@ -130,6 +130,19 @@ html {
   }
   .navigation li {
     display: inline-block;
+  }
+}
+
+.icon-search {
+  color: #EFEEED;
+}
+
+@media only screen and (min-width: 38em) and (max-width: 50em) {
+  .list {
+    font-size: 15px;
+  }
+  .list a {
+    padding: 0;
   }
 }
 
