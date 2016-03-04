@@ -2266,7 +2266,6 @@ sub {
 .contain {
   color: #3DBB9A;
   text-align: center;
-  padding-top: .5em;
 }
 
 .input {
@@ -2329,6 +2328,11 @@ sub {
   color: #000;
 }
 
+.p a:focus {
+  text-decoration: none;
+  color: #F16067;
+}
+
 .b-0 {
   margin-bottom: 0;
 }
@@ -2350,15 +2354,13 @@ sub {
 }
 
 .check {
-  display: block;
-  text-align: left;
+  text-align: center;
   font-size: 15px;
 }
 
 @media only screen and (min-width: 32em) {
   .left {
     float: left;
-    padding-left: 1em;
   }
   .right {
     float: right;
@@ -2537,10 +2539,30 @@ sub {
   padding: .5em;
 }
 
+.i-about a {
+  border: none;
+  text-decoration: none;
+  color: #000;
+}
+
 .i-about h2 {
+  padding: 0;
   margin: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  line-height: 25px;
 }
 
 .i-about p {
+  padding-top: 5px;
   padding-left: .5em;
+}
+
+.bucket {
+  display: block;
+}
+
+.news-img {
+  width: 100%;
+  display: inline-block;
 }

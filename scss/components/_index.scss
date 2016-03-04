@@ -117,10 +117,28 @@ a{
 
 .i-about{
   padding: .5em;
+  a{
+    border: none;
+    text-decoration: none;
+    color: $black;
+  }
   h2{
-    margin: 0;
+    @include zero;
+    padding-top: 10px;
+    border-bottom: 1px solid $grey;
+    line-height: 25px;
   }
   p{
+    padding-top: 5px;
     padding-left: .5em;
   }
+}
+
+.bucket{
+  display: block;
+}
+
+.news-img{
+  width: 100%;
+  display: inline-block;
 }
