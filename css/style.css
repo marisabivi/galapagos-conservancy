@@ -1030,6 +1030,11 @@ sub {
 
 .news-add-comment {
   color: #3DBB9A;
+  padding-bottom: 0.5em;
+}
+
+.news-comment-box {
+  padding-bottom: 0.5em;
 }
 
 .news-form-name {
