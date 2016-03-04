@@ -1,4 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700,400,400italic);
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .header {
   background-color: #092928;
   height: 4.1em;
