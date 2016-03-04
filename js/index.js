@@ -12,3 +12,8 @@ function toggleNav() {
    $('.site-wrapper').attr('data-state', 'slide-closed');
   }
 }
+
+$('.more').click(function() {
+    $(this).prev('div').slideToggle();
+    $(this).html('less');
+});

@@ -1,0 +1,36 @@
+.news {
+  padding: 2em;
+  padding-left: 12em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .news {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .news {
+    padding-right: 12em;
+  }
+}
+
+.news-h1 {
+  text-align: center;
+}
+
+.news-h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.news-h5 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
