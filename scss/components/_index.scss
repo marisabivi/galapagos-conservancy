@@ -52,6 +52,14 @@ a{
     overflow: hidden;
     @include zero;
   }
+
+  @media only screen and (min-width: 60em){
+    background-color: $teal;
+    border-left: 1px solid $grey;
+    &:hover{
+      background-color: darken($teal, 8%);
+    }
+  }
 }
 
 .i-carousel {
@@ -135,10 +143,14 @@ a{
 }
 
 .bucket{
-  display: block;
+  position: relative;
 }
 
 .news-img{
   width: 100%;
   display: inline-block;
+
+  @media only screen and (min-width: 60em){
+    margin: .5em;
+  }
 }

@@ -72,16 +72,14 @@
 .text{
 	text-align: center;
 	display: block;
-	margin: 1.5em;
 
 	h1{
 		color: $teal;
 		margin: 0;
-		font-size: 3em;
+		font-size: 4em;
 	}
 	p{
 		color: $black;
-
 	}
 }
 
@@ -102,6 +100,9 @@
 	.divider{
 		border-right: 1px solid $grey;
 		@include zero;
+	}
+
+	.contain{
 		padding: 1em;
 	}
 }

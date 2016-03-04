@@ -2340,13 +2340,12 @@ sub {
 .text {
   text-align: center;
   display: block;
-  margin: 1.5em;
 }
 
 .text h1 {
   color: #3DBB9A;
   margin: 0;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .text p {
@@ -2369,6 +2368,8 @@ sub {
     border-right: 1px solid #DBDBDB;
     padding: 0;
     margin: 0;
+  }
+  .contain {
     padding: 1em;
   }
 }
@@ -2435,6 +2436,16 @@ sub {
   overflow: hidden;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (min-width: 60em) {
+  .isign-btn {
+    background-color: #3DBB9A;
+    border-left: 1px solid #DBDBDB;
+  }
+  .isign-btn:hover {
+    background-color: #339c81;
+  }
 }
 
 .i-carousel {
@@ -2559,10 +2570,16 @@ sub {
 }
 
 .bucket {
-  display: block;
+  position: relative;
 }
 
 .news-img {
   width: 100%;
   display: inline-block;
+}
+
+@media only screen and (min-width: 60em) {
+  .news-img {
+    margin: .5em;
+  }
 }
