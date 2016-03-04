@@ -1051,7 +1051,6 @@ sub {
   padding-right: 0.3750rem;
 }
 
-<<<<<<< HEAD
 .fixednav {
   border-radius: 5px;
   position: fixed;
@@ -1097,7 +1096,145 @@ sub {
 }
 
 .news {
-=======
+  padding: 2em;
+  padding-left: 12em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .news {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .news {
+    padding-right: 12em;
+  }
+}
+
+.news-h1 {
+  text-align: center;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.news-h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.news-h3 {
+  text-align: center;
+  font-size: 1.1250em;
+  color: #3DBB9A;
+}
+
+.news-h4 {
+  text-align: center;
+  font-size: 1em;
+  color: #3DBB9A;
+}
+
+.news-h5 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8889em;
+  color: #3DBB9A;
+}
+
+.news-links {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.news-links:hover {
+  color: #d9464d;
+}
+
+.news-comments {
+  color: #3DBB9A;
+}
+
+.news-form {
+  width: 100%;
+}
+
+.news-add-comment {
+  color: #3DBB9A;
+  padding-bottom: 0.5em;
+}
+
+.news-comment-box {
+  padding-bottom: 0.5em;
+}
+
+.news-form-name {
+  width: 100%;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 38em) {
+  .news-form-name {
+    width: 50%;
+  }
+}
+
+.news-form-comment {
+  width: 100%;
+  height: 100px;
+  font-size: 14px;
+}
+
+.news-form-comments-list {
+  padding: 0;
+}
+
+.news-form-list-item {
+  list-style: none;
+  font-size: 1.25em;
+  padding: 0.5em;
+  min-height: 3em;
+  border-bottom: 1px dashed black;
+}
+
+.news-form-list-item:first-child {
+  border-top: 1px dashed black;
+}
+
+.news-form-list-comment {
+  margin: 0;
+  font-size: 0.7901em;
+  padding: 0;
+  position: relative;
+}
+
+.news-form-list-name {
+  color: #3DBB9A;
+  font-size: 0.7901em;
+  margin: 0;
+}
+
+.news-btn-comment {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  width: 100px;
+}
+
+.news-btn-comment:hover {
+  background-color: #339f82;
+}
+
 .country-select .flag {
   width: 16px;
   height: 11px;
@@ -2362,76 +2499,32 @@ sub {
 }
 
 .about {
->>>>>>> gh-pages
   padding: 2em;
   padding-left: 12em;
   text-align: left;
 }
 
 @media only screen and (max-width: 38em) {
-<<<<<<< HEAD
-  .news {
-=======
   .about {
->>>>>>> gh-pages
     padding: 2em;
   }
 }
 
 @media only screen and (min-width: 75em) {
-<<<<<<< HEAD
-  .news {
-=======
   .about {
->>>>>>> gh-pages
     padding-right: 12em;
   }
 }
 
-<<<<<<< HEAD
-.news-h1 {
-  text-align: center;
-}
-
-.news-img {
-  width: 100%;
-}
-
-.news-h2 {
-=======
 .h1about {
   text-align: center;
 }
 
 .h2about {
->>>>>>> gh-pages
   text-align: center;
   font-size: 2em;
 }
 
-<<<<<<< HEAD
-.news-h3 {
-  text-align: center;
-  font-size: 1.1250em;
-  color: #3DBB9A;
-}
-
-.news-h4 {
-  text-align: center;
-  font-size: 1em;
-  color: #3DBB9A;
-}
-
-.news-h5 {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  font-size: 0.8889em;
-  color: #3DBB9A;
-}
-
-.news-links {
-=======
 .h4about {
   font-size: 1em;
   color: #3DBB9A;
@@ -2447,95 +2540,10 @@ sub {
 }
 
 .funding a {
->>>>>>> gh-pages
   text-decoration: none;
   color: #F16067;
 }
 
-<<<<<<< HEAD
-.news-links:hover {
-  color: #d9464d;
-}
-
-.news-comments {
-  color: #3DBB9A;
-}
-
-.news-form {
-  width: 100%;
-}
-
-.news-add-comment {
-  color: #3DBB9A;
-  padding-bottom: 0.5em;
-}
-
-.news-comment-box {
-  padding-bottom: 0.5em;
-}
-
-.news-form-name {
-  width: 100%;
-  font-size: 14px;
-}
-
-@media only screen and (min-width: 38em) {
-  .news-form-name {
-    width: 50%;
-  }
-}
-
-.news-form-comment {
-  width: 100%;
-  height: 100px;
-  font-size: 14px;
-}
-
-.news-form-comments-list {
-  padding: 0;
-}
-
-.news-form-list-item {
-  list-style: none;
-  font-size: 1.25em;
-  padding: 0.5em;
-  min-height: 3em;
-  border-bottom: 1px dashed black;
-}
-
-.news-form-list-item:first-child {
-  border-top: 1px dashed black;
-}
-
-.news-form-list-comment {
-  margin: 0;
-  font-size: 0.7901em;
-  padding: 0;
-  position: relative;
-}
-
-.news-form-list-name {
-  color: #3DBB9A;
-  font-size: 0.7901em;
-  margin: 0;
-}
-
-.news-btn-comment {
-  text-align: center;
-  display: block;
-  padding: .5em;
-  border-radius: 5px;
-  border: 1px solid #EFEEED;
-  text-decoration: none;
-  color: #EFEEED;
-  font-size: 1.5em;
-  background-color: #3DBB9A;
-  width: 100px;
-}
-
-.news-btn-comment:hover {
-  background-color: #339f82;
-=======
 .funding a:hover {
   color: #d9464d;
 }
@@ -2616,5 +2624,4 @@ sub {
 
 strong {
   color: #3DBB9A;
->>>>>>> gh-pages
 }
