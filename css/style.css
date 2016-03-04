@@ -1077,6 +1077,17 @@ sub {
   }
 }
 
+.news-h1-sections {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.news-section {
+  margin: 0;
+  padding: 0 0.5em;
+  box-sizing: border-box;
+}
+
 .news-section-image {
   width: 100%;
 }
