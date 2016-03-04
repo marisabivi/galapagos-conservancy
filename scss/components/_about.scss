@@ -51,11 +51,15 @@
     border-radius: 5px;
     position: fixed;
     top: 8em;
-    width: 8em;
+    width: auto;
     padding:1em;
-    padding-left: 2.2em;
+    padding-left: 3em;
+    padding-right:2.8em;
     left:-5px;
     background-color: $off-white;
+    li {
+        padding:.25em;
+    }
     a {
         color: $teal;
         text-decoration: none;

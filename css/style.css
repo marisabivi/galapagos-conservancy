@@ -2588,11 +2588,16 @@ sub {
   border-radius: 5px;
   position: fixed;
   top: 8em;
-  width: 8em;
+  width: auto;
   padding: 1em;
-  padding-left: 2.2em;
+  padding-left: 3em;
+  padding-right: 2.8em;
   left: -5px;
   background-color: #EFEEED;
+}
+
+.fixednav li {
+  padding: .25em;
 }
 
 .fixednav a {
@@ -2612,7 +2617,6 @@ sub {
 
 .galapagos {
   padding: 2em;
-  padding-left: 12em;
   text-align: left;
 }
 
