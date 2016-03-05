@@ -1076,6 +1076,18 @@ sub {
   font-family: Lato, sans-serif;
 }
 
+.shop-h3 {
+  color: #F16067;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
+.shop-h4 {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
 .shop-paragraph {
   color: #000;
   font-family: Lato, sans-serif;
