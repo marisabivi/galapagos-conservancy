@@ -24,3 +24,10 @@
         padding: 1.5em;
     }
 }
+
+.list {
+    li {
+    list-style-type:circle;
+    background-color: $white;
+    }
+}
