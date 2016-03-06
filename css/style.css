@@ -2640,21 +2640,15 @@ sub {
   list-style-type: none;
 }
 
-.gh1 {
+.galapagos h1 {
   text-align: center;
 }
 
-.gh2 {
+.galapagos h3 {
   text-align: center;
-  font-size: 2em;
 }
 
-.gh3 {
-  font-size: 1em;
-}
-
-.gh4 {
-  font-size: 1em;
+.galapagos h4 {
   color: #3DBB9A;
 }
 
@@ -2664,26 +2658,6 @@ strong {
 
 a {
   text-decoration: none;
-}
-
-.gh2island {
-  text-align: left;
-  font-size: 1.5em;
-  color: #3DBB9A;
-}
-
-.gh2island:hover {
-  color: #339f82;
-}
-
-.gh3island {
-  font-size: 2em;
-  color: #3DBB9A;
-}
-
-.gh4island {
-  font-size: 1.5em;
-  color: #3DBB9A;
 }
 
 .islandinfo li {
