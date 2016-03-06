@@ -2532,7 +2532,6 @@ sub {
 
 .about {
   padding: 2em;
-  padding-left: 12em;
   text-align: left;
 }
 
@@ -2546,6 +2545,14 @@ sub {
   .about {
     padding-right: 12em;
   }
+}
+
+.about h3 {
+  text-align: center;
+}
+
+.about h4 {
+  color: #3DBB9A;
 }
 
 .h1about {
@@ -2588,11 +2595,16 @@ sub {
   border-radius: 5px;
   position: fixed;
   top: 8em;
-  width: 8em;
+  width: auto;
   padding: 1em;
-  padding-left: 2.2em;
+  padding-left: 3em;
+  padding-right: 2.8em;
   left: -5px;
   background-color: #EFEEED;
+}
+
+.fixednav li {
+  padding: .25em;
 }
 
 .fixednav a {
