@@ -2555,20 +2555,6 @@ sub {
   color: #3DBB9A;
 }
 
-.h1about {
-  text-align: center;
-}
-
-.h2about {
-  text-align: center;
-  font-size: 2em;
-}
-
-.h4about {
-  font-size: 1em;
-  color: #3DBB9A;
-}
-
 .reports a {
   text-decoration: none;
   color: #F16067;
