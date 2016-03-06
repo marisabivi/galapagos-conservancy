@@ -2532,7 +2532,6 @@ sub {
 
 .about {
   padding: 2em;
-  padding-left: 12em;
   text-align: left;
 }
 
@@ -2548,17 +2547,11 @@ sub {
   }
 }
 
-.h1about {
+.about h3 {
   text-align: center;
 }
 
-.h2about {
-  text-align: center;
-  font-size: 2em;
-}
-
-.h4about {
-  font-size: 1em;
+.about h4 {
   color: #3DBB9A;
 }
 
@@ -2588,11 +2581,16 @@ sub {
   border-radius: 5px;
   position: fixed;
   top: 8em;
-  width: 8em;
+  width: auto;
   padding: 1em;
-  padding-left: 2.2em;
+  padding-left: 3em;
+  padding-right: 2.8em;
   left: -5px;
   background-color: #EFEEED;
+}
+
+.fixednav li {
+  padding: .25em;
 }
 
 .fixednav a {
