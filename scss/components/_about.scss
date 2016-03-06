@@ -1,6 +1,5 @@
 .about {
     padding: 2em;
-    padding-left: 12em;
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -8,22 +7,15 @@
     @media only screen and (min-width: 75em) {
     padding-right: 12em;
     }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        color: $teal;
+    }   
 }
 
 
-.h1about {
-    text-align: center;
-}
-
-.h2about {
-    text-align: center;
-    font-size: 2em;
-}
-
-.h4about {
-    font-size: 1em;
-    color: $teal;
-}
 
 .reports a {
     text-decoration: none;

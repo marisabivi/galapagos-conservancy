@@ -2532,7 +2532,6 @@ sub {
 
 .about {
   padding: 2em;
-  padding-left: 12em;
   text-align: left;
 }
 
@@ -2548,17 +2547,11 @@ sub {
   }
 }
 
-.h1about {
+.about h3 {
   text-align: center;
 }
 
-.h2about {
-  text-align: center;
-  font-size: 2em;
-}
-
-.h4about {
-  font-size: 1em;
+.about h4 {
   color: #3DBB9A;
 }
 
