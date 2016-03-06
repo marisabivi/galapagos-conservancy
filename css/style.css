@@ -2686,6 +2686,7 @@ a {
 
 .conservation {
   padding: 2em;
+  padding-left: 2em;
   text-align: left;
 }
 
@@ -2705,10 +2706,18 @@ a {
   text-align: center;
 }
 
+.conservation h2 {
+  text-align: center;
+}
+
 .conservation h3 {
   text-align: center;
 }
 
 .conservation h4 {
   color: #3DBB9A;
+}
+
+.conservation .fixednav {
+  padding: 1.5em;
 }
