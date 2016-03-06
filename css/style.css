@@ -2701,6 +2701,10 @@ a {
   }
 }
 
+.conservation h1 {
+  text-align: center;
+}
+
 .conservation h3 {
   text-align: center;
 }
