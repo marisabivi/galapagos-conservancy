@@ -2683,3 +2683,28 @@ a {
 .islandinfo li {
   list-style-type: none;
 }
+
+.conservation {
+  padding: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .conservation {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .conservation {
+    padding-right: 12em;
+  }
+}
+
+.conservation h3 {
+  text-align: center;
+}
+
+.conservation h4 {
+  color: #3DBB9A;
+}
