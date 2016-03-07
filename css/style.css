@@ -2672,6 +2672,11 @@ sub {
   color: #3DBB9A;
 }
 
+.gimg {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
 strong {
   color: #3DBB9A;
 }
