@@ -1,7 +1,11 @@
 @mixin button($teal){
     text-align: center;
     display: block;
+<<<<<<< HEAD
     padding: .5em 1em;
+=======
+    padding: .5em;
+>>>>>>> gh-pages
     border-radius: 5px;
     border: 1px solid $off-white;
     text-decoration: none;
@@ -9,6 +13,47 @@
     font-size: 1.5em;
     background-color: $teal;
     &:hover {
+<<<<<<< HEAD
    background-color: #339f82;
     }
 }
+=======
+   background-color: $dark-teal;
+    }
+}
+
+@mixin element-invisible {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@mixin element-invisible-off {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+@mixin zero {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin icon-button {
+  float: right;
+  color: $off-white;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+    &:before{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 13px 11px;
+ }
+}
+>>>>>>> gh-pages

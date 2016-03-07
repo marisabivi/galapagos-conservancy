@@ -1,0 +1,47 @@
+.galapagos {
+    padding: 2em;
+    text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: 2em;
+    }
+    @media only screen and (min-width: 75em) {
+    padding-right: 12em;
+    }
+    li { 
+        list-style-type: circle;
+    }
+    .fixednav  li{
+        list-style-type: none;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        color: $teal;
+    }
+
+}
+
+
+strong {
+    color: $teal;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.islandinfo {
+    li {
+        list-style-type: none;
+    }
+}
+

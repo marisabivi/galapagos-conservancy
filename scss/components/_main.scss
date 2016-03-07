@@ -1,52 +1,223 @@
+<<<<<<< HEAD
+=======
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+//header items
+.header{
+	background-color: $dark-green;
+	height:4.1em;
+}
+
+.list{
+	@include zero;
+	background-color: $dark-green;
+}
+
+.icon-hamberger{
+	position: relative;
+	right: .5em;
+	font-size: 35px;
+}
+
+.logo{
+  position: relative;
+	top: 10px;
+	float: left;
+	left: .5em;
+	width: 7em;
+}
+
+.navigation{
+	ul{
+		padding: 1em;
+	}
+	li{
+		padding: 0;
+		border-bottom: 3px solid $dark-green;
+		&:hover{
+		border-bottom: 3px solid $teal;
+		}
+	a{
+		display: block;
+		text-decoration: none;
+		color: $off-white;
+		display: block;
+		padding: .5em 1em;
+	}
+ }
+}
+
+.icon-hamberger,
+.icon-close{
+ @include icon-button;
+	span{
+		@include element-invisible;
+	}
+}
+
+@media only screen and (max-width: 38em){
+
+	.site-wrapper{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		z-index: 2;
+
+		.sliding-canvas{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			background-color: $dark-green;
+			transform: translateX(0);
+			transition: all 300ms ease-in-out;
+		}
+		&[data-state="slide-open"] .sliding-canvas{
+			transform: translateX(-100%);
+		}
+		&[data-state="slide-open"]{
+			overflow: hidden;
+		}
+	}
+		.slide-menu{
+	    position: absolute;
+	    width: 100%;
+	    right: -100%;
+	    top: 0;
+	    bottom: 0;
+	    min-height: 800px;
+			@include zero;
+			.list{
+				padding: 1em;
+			}
+	  }
+  }
+
+	@media only screen and (min-width: 38em){
+	  .icon-hamberger,
+	  .icon-close{
+	    display: none;
+		&:before{
+			display: none;
+		}
+	}
+		.navigation{
+			text-align: right;
+			padding-right: 2em;
+		li{
+			display: inline-block;
+		}
+	}
+
+}
+
+.icon-search{
+  color: $off-white;
+}
+
+@media only screen and (min-width: 38em) and (max-width: 50em){
+  .list{
+    font-size: 15px;
+    a{
+      padding: 0;
+    }
+  }
+}
+
+	body.noscript .navigation{
+  position: static;
+  right: auto;
+}
+
+>>>>>>> gh-pages
 body {
     margin: 0;
+    font-family: $lato;
 }
+
+
+// footer
 
 h5 {
     text-align: center;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.signin {
+    text-decoration: none;
     color: $off-white;
-    padding-top: 3em;
+    &:hover {
+    color: $light-grey;
+    }
 }
 
 .copyright {
     color: $off-white;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     display: block;
     @media screen and (min-width: 38em) {
         text-align: right;
+        padding-top: 0;
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
 .icon {
     text-align: center;
+
     @media screen and (min-width: 38em) {
-        text-align: center;
+        text-align: right;
+        margin-right: 1em;
         }
 
     i {
         color: $teal;
         font-size: 2em;
         margin: .25em;
+<<<<<<< HEAD
         display:inline; 
-            @media screen and (min-width: 38em) {
-        font-size: 3em;
-            margin-left: 1em;
-            margin-right: 1em;
+=======
+        display:inline;
+        &:hover {
+            color: $dark-teal;
         }
-            
+
+>>>>>>> gh-pages
+            @media screen and (min-width: 38em) {
+            font-size: 3em;
+            margin-left: .5em;
+            display: inline-block;
+        }
     }
-   
+
 }
 
 .graph {
+    @media screen and (min-width: 38em) {
+        float: left;
+    }
+    @media screen and (min-width: 60em) {
+        padding-top: 1em;
+    }
+}
+
+.graph-img {
     display: block;
     margin: auto;
     padding-bottom: .5em;
     width: 8em;
-    
+
     @media screen and (min-width: 38em) {
-        margin-left: 6em; 
+        margin-left: 6em;
         padding-bottom: 1.5em;
         width: 6em;
     }
@@ -54,9 +225,6 @@ h5 {
 
 ul {
     list-style-type: none;
-    @media screen and (min-width: 38em) {
-        margin: 1em;
-    }
 }
 
 .stat-title {
@@ -65,46 +233,62 @@ ul {
     color: $off-white;
         @media screen and (min-width: 38em) {
         text-align: left;
-        margin: 2em;
+        margin-left: 1.5em;
+        margin-bottom: 1em;
         padding: 0;
     }
 }
 
 .graph-stat {
     text-align: center;
-    padding-right: 3em;
+    padding-right: 2em;
     color: $off-white;
     @media screen and (min-width: 38em) {
         text-align: center;
-        float: left;
+
     }
+
 }
 
 .address {
+    font-size:.8em;
     text-align: center;
     padding-right: 3em;
     color: $off-white;
-    
+
     @media screen and (min-width: 38em) {
         text-align: right;
     }
+    @media screen and (min-width: 60em) {
+        padding-top: 3em;
+    }
 }
 
-button {
+.donate {
+    @media screen and (min-width: 60em) {
+        position: absolute;
+        right: 40%;
+        padding-top: 3em;
+    }
+}
+
+.donate-btn {
     @include button($teal);
-    position: relative;
-    margin: 2em auto;
-    right: .25em;
-        a{ 
+    margin: auto;
+    width: 200px;
+    margin-bottom: 1em;
+    a{
     text-decoration: none;
     color: $off-white;
     }
-    
-        
 }
 
 footer {
-    display: block;
     background-color: $dark-green;
+<<<<<<< HEAD
     width: 100%;
 }
+=======
+		}
+// footer
+>>>>>>> gh-pages

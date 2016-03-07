@@ -1,0 +1,66 @@
+.about {
+    padding: 2em;
+    text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: 2em;
+    }
+    @media only screen and (min-width: 75em) {
+    padding-right: 12em;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        color: $teal;
+    }   
+}
+
+
+
+.reports a {
+    text-decoration: none;
+    color: $pink;
+    &:hover {
+        color: $darkpink;
+    }
+
+}
+
+.funding a {
+    text-decoration: none;
+    color: $pink;
+    &:hover {
+        color: $darkpink;
+    }
+
+}
+
+.mlist {
+    list-style-type:disc;
+}
+
+.fixednav {
+    border-radius: 5px;
+    position: fixed;
+    top: 8em;
+    width: auto;
+    padding:1em;
+    padding-left: 3em;
+    padding-right:2.8em;
+    left:-5px;
+    background-color: $off-white;
+    li {
+        padding:.25em;
+    }
+    a {
+        color: $teal;
+        text-decoration: none;
+        &:hover {
+        color: $dark-teal;
+        }
+    }
+    @media only screen and (max-width: 38em){
+        display:none;
+    }
+
+}

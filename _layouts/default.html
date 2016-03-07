@@ -2,39 +2,47 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>Galapagos Conservancy</title>
-    <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+    <title>Galapagos Conservancy — Preserce, Protect, and Restore the Galapagos</title>
+    <link href="{{site.baseurl}}/css/galapagos.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
     <link href="https://file.myfontastic.com/i49qVkvyeHfQECBiRoLBTB/icons.css" rel="stylesheet">
+<<<<<<< HEAD
     <meta name="viewport" content="width=device-width,initial-scale=1"> 
+=======
+    <link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+>>>>>>> gh-pages
 </head>
 
-<body>
-<header>
-	<div class="grid">
-		<nav id="navigation">
+<body class="noscript">
 
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-				<ul>
-					<li><a href="{{site.baseurl}}/about/">About</a></li>
-					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
-					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
-					<li><a href="{{site.baseurl}}/news/">News</a></li>
-					<li><a href="{{site.baseurl}}/shop/">Shop</a></li>
-					<li><a href="{{site.baseurl}}/donate/">Donate</a></li>
-				</ul>
-			</div>
+  <div class="site-wrapper" data-state="slide-closed">
+    <div class="sliding-canvas">
+<header class="header">
 
-		</nav>
-	</div>
-</header>    
+<a href="{{site.baseurl}}/#/"><img src="{{site.baseurl}}/img/logo.svg" alt="turtle logo" class="logo"></a>
 
-<main id="main">
+<a class="icon-hamberger i-menu" href="#main-menu"><span>menu</span></a>
+	<nav class="navigation slide-menu">
+  <a class="icon-close i-close" href="#main-menu"><span>Close</span></a>
+
+        <ul class="list">
+  					<li><a href="{{site.baseurl}}/about/">About</a></li>
+  					<li><a href="{{site.baseurl}}/galapagos/">Galapagos</a></li>
+  					<li><a href="{{site.baseurl}}/conservation/">Conservation</a></li>
+  					<li><a href="{{site.baseurl}}/news/">News</a></li>
+  					<li><a href="{{site.baseurl}}/shop/">Shop</a></li>
+            <i class="icon-search"></i>
+        </ul>
+	</nav>
+</header>
+
+<main id="main" class="bg">
 	{{content}}
 </main>
- 
+
 <footer id="footer">
+<<<<<<< HEAD
     <h5>Sign Up for Latest News</h5>
     <button><a href="{{site.baseurl}}/donate/">Donate</a> </button>
     <div class=""> 
@@ -58,8 +66,18 @@
         <li>Suite 408</li>
         <li>Fairfax, VA, USA</li>
     </ul>
-    
+=======
+  <div class="donate">
 
+        <h5><a class="signin" href="{{site.baseurl}}/signin/">Sign Up for Latest News</a></h5>
+
+>>>>>>> gh-pages
+    
+        <a href="{{site.baseurl}}/donate/"><div class="donate-btn">Donate</div></a>
+
+  </div>
+
+<<<<<<< HEAD
 		<div class="icon">
 			<i class="icon-facebook"></i>
 			<i class="icon-twitter"></i>
@@ -75,5 +93,49 @@
  <!-- /grid -->
 </footer>  
     
+=======
+  <div class="graph">
+      <p class="stat-title">How Your Donations Help</p>
+
+      <img class="graph-img" src="{{site.baseurl}}/img/fundinggraph.svg " alt="funding graph">
+
+      <ul class="graph-stat">
+        <li>75% Grants and Conservation</li>
+        <li>19% Fundraising</li>
+        <li>06% Management</li>
+      </ul>
+  </div>
+
+   <div class="address">
+        <ul>
+            <li>Galapagos Consevancy</li>
+            <li>11150 Fairfax Boulevard Suite 408</li>
+            <li>Fairfax, Virginia, USA</li>
+        </ul>
+   </div>
+
+	<div class="icon">
+    <a style="text-decoration: none;" href="https://www.facebook.com/GalapagosConservancy/"><i class="icon-facebook"></i></a>
+    <a style="text-decoration: none;" href="https://twitter.com/SaveGalapagos"><i class="icon-twitter"></i></a>
+    <a style="text-decoration: none;" href="https://www.youtube.com/user/GalapagosConservancy"><i class="icon-youtube"></i></a>
+    <a style="text-decoration: none;" href="https://www.instagram.com/galapagosconservancy/"><i class="icon-instagram"></i></a>
+	</div>
+
+	<div class="copyright">
+		<p class=" micro">©2016 Galapagos Conservancy</p>
+	</div>
+
+</footer>
+
+</div> <!-- /.sliding-canvas -->
+</div> <!-- /.site-wrapper -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
+ <script src="{{site.baseurl}}/js/index.js"></script>
+ <script src="{{site.baseurl}}/js/smooth-scrolling.js"></script>
+>>>>>>> gh-pages
 </body>
 </html>
