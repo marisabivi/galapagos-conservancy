@@ -1164,11 +1164,11 @@ sub {
 
 .news-h3 {
   text-align: center;
+  margin: 0;
 }
 
 .news-h4 {
   text-align: center;
-  margin: 0;
   color: #3DBB9A;
 }
 
