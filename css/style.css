@@ -2621,7 +2621,6 @@ sub {
 
 .galapagos {
   padding: 2em;
-  padding-left: 12em;
   text-align: left;
 }
 
@@ -2645,26 +2644,32 @@ sub {
   list-style-type: none;
 }
 
-.gh1 {
+.galapagos h1 {
   text-align: center;
 }
 
-.gh2 {
+.galapagos h2 {
   text-align: center;
-  font-size: 2em;
 }
 
-.gh3 {
-  font-size: 1em;
+.galapagos h3 {
+  text-align: center;
 }
 
-.gh4 {
-  font-size: 1em;
+.galapagos h4 {
   color: #3DBB9A;
 }
 
 strong {
   color: #3DBB9A;
+}
+
+a {
+  text-decoration: none;
+}
+
+.islandinfo li {
+  list-style-type: none;
 }
 
 /* galapagos-conservancy */
