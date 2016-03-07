@@ -1,9 +1,9 @@
-.fixednav {
+.news-fixednav {
     border-radius: 5px;
     position: fixed;
     top: 8em;
-    width: 8em;
-    padding:1em;
+    padding: 1em;
+    width: 11em;
     padding-left: 2.2em;
     left:-5px;
     background-color: $off-white;
@@ -13,6 +13,9 @@
         &:hover {
         color: $dark-teal;
         }
+    }
+    @media only screen and (min-width: 60em){
+        width: 15em;
     }
     @media only screen and (max-width: 38em){
         display:none;
@@ -27,7 +30,6 @@
 
 .news-section {
     margin: 0;
-    padding: 0 0.5em;
     box-sizing: border-box;
 }
 
@@ -49,19 +51,16 @@
 
 .news {
     padding: 2em;
-    padding-left: 12em;
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
     }
-    @media only screen and (min-width: 75em) {
-    padding-right: 12em;
-    }
 }
 
-.news-h1 {
-    text-align: center;
-}
+
+//.news-h1 {
+//    text-align: center;
+//}
 
 .news-img {
     width: 100%;
@@ -69,26 +68,32 @@
 
 .news-h2 {
     text-align: center;
-    font-size: 2em;
+    //font-size: 2em;
 }
 
 .news-h3 {
     text-align: center;
-    font-size: 1.1250em;
-    color: $teal;
+    //font-size: 1.1250em;
 }
 
 .news-h4 {
     text-align: center;
-    font-size: 1em;
+    margin: 0;
     color: $teal;
 }
 
 .news-h5 {
+    text-align: center;
+    padding: 0;
+    //font-size: 1em;
+    color: $teal;
+}
+
+.news-h6 {
     text-align: left;
     margin: 0;
     padding: 0;
-    font-size: 0.8889em;
+    //font-size: 0.8889em;
     color: $teal;
 }
 
