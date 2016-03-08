@@ -2732,48 +2732,6 @@ a {
   transition: all 150ms linear;
 }
 
-.genovesa {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.isabela {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.marchena {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.pinta {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.sancristobal {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.santacruz {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.santiago {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
 .js-showhide {
   display: block;
 }
