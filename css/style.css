@@ -1083,6 +1083,35 @@ sub {
   box-sizing: border-box;
 }
 
+.news {
+  padding: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .news {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .news {
+    padding-right: 12em;
+  }
+}
+
+.news h3 {
+  text-align: center;
+}
+
+.news h4 {
+  color: #3DBB9A;
+}
+
+.news .fixednav {
+  padding-right: 1em;
+}
+
 .news-fixednav {
   border-radius: 5px;
   position: fixed;
@@ -1141,17 +1170,6 @@ sub {
 
 .news-section-title:hover {
   color: #d9464d;
-}
-
-.news {
-  padding: 2em;
-  text-align: left;
-}
-
-@media only screen and (max-width: 38em) {
-  .news {
-    padding: 2em;
-  }
 }
 
 .news-img {

@@ -1,3 +1,23 @@
+.news {
+    padding: 2em;
+    text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: 2em;
+    }
+    @media only screen and (min-width: 75em) {
+    padding-right: 12em;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        color: $teal;
+    }
+    .fixednav {
+        padding-right: 1em;
+    }
+}
+
 .news-fixednav {
     border-radius: 5px;
     position: fixed;
@@ -49,44 +69,27 @@
     }
 }
 
-.news {
-    padding: 2em;
-    text-align: left;
-    @media only screen and (max-width: 38em) {
-    padding: 2em;
-    }
-}
-
-
-//.news-h1 {
-//    text-align: center;
-//}
-
 .news-img {
     width: 100%;
 }
 
 .news-h2 {
     text-align: center;
-    //font-size: 2em;
 }
 
 .news-h3 {
     text-align: center;
     margin: 0;
-    //font-size: 1.1250em;
 }
 
 .news-h4 {
     text-align: center;
-    //margin: 0;
     color: $teal;
 }
 
 .news-h5 {
     text-align: center;
     padding: 0;
-    //font-size: 1em;
     color: $teal;
 }
 
@@ -94,7 +97,6 @@
     text-align: left;
     margin: 0;
     padding: 0;
-    //font-size: 0.8889em;
     color: $teal;
 }
 
