@@ -127,6 +127,7 @@ a{
 .i-about{
   padding-left: 2em;
   text-align: center;
+  padding-right: 2em;
   a{
     border: none;
     text-decoration: none;
@@ -136,7 +137,6 @@ a{
     @include zero;
     padding-top: 10px;
     border-bottom: 1px solid $grey;
-    width: 10em;
     line-height: 25px;
   }
   p{
@@ -164,7 +164,7 @@ a{
   }
 }
 
-@media only screen and (min-width:v60em){
+@media only screen and (min-width: 60em){
   .latest-news{
     display: block;
   }
@@ -175,4 +175,24 @@ a{
 .l-length{
   overflow: hidden;
    max-width: 75ch;
+}
+
+// video
+
+.embed-item {
+position: absolute;
+left: 0;
+width: 80%;
+height: 50%;
+top: 0;
+}
+
+.embed{
+position: relative;
+overflow: hidden;
+width: 100%;
+}
+
+.embed-16by9 {
+padding: 56.27%;
 }
