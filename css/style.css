@@ -1080,7 +1080,7 @@ sub {
 }
 
 .article {
-  padding: 0;
+  padding: 2em;
   margin: 0;
 }
 
@@ -1090,16 +1090,23 @@ sub {
 }
 
 .shop-h1 {
-  color: #F16067;
+  color: #3DBB9A;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h2 {
-  text-align: center;
-  color: #F16067;
+.shop-h1-title {
+  color: #000;
   text-decoration: none;
   font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.shop-h4-title {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  text-align: center;
 }
 
 .shop-h3 {
@@ -1117,15 +1124,6 @@ sub {
 .shop-paragraph {
   color: #000;
   font-family: Lato, sans-serif;
-}
-
-.shop-banner {
-  padding: 0 0;
-  margin: 0 0;
-  background-size: cover;
-  align-content: center;
-  width: 100%;
-  height: 100vh;
 }
 
 .shop-piece {
