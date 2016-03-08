@@ -2697,6 +2697,54 @@ a {
   list-style-type: none;
 }
 
+.conservation {
+  padding: 2em;
+  padding-left: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .conservation {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .conservation {
+    padding-right: 12em;
+  }
+}
+
+.conservation h1 {
+  text-align: center;
+}
+
+.conservation h2 {
+  text-align: center;
+}
+
+.conservation h3 {
+  text-align: center;
+}
+
+.conservation h4 {
+  color: #3DBB9A;
+}
+
+.conservation .fixednav {
+  padding: 1.5em;
+}
+
+.conservation .list li {
+  list-style-type: circle;
+  background-color: #fff;
+}
+
+.cimg {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
 /* galapagos-conservancy */
 @font-face {
   font-family: "galapagos-conservancy";
