@@ -326,6 +326,8 @@ ul {
 
 footer {
   background-color: #092928;
+  position: relative;
+  z-index: 1000;
 }
 
 /*

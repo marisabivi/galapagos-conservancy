@@ -275,5 +275,7 @@ ul {
 
 footer {
     background-color: $dark-green;
+    position: relative;
+    z-index: 1000;
 		}
 // footer
