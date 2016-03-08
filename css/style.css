@@ -352,6 +352,8 @@ ul {
 
 footer {
   background-color: #092928;
+  position: relative;
+  z-index: 1000;
 }
 
 /*
@@ -1080,7 +1082,7 @@ sub {
 }
 
 .article {
-  padding: 0;
+  padding: 2em;
   margin: 0;
 }
 
@@ -1090,16 +1092,23 @@ sub {
 }
 
 .shop-h1 {
-  color: #F16067;
+  color: #3DBB9A;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h2 {
-  text-align: center;
-  color: #F16067;
+.shop-h1-title {
+  color: #000;
   text-decoration: none;
   font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.shop-h4-title {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  text-align: center;
 }
 
 .shop-h3 {
@@ -1117,15 +1126,6 @@ sub {
 .shop-paragraph {
   color: #000;
   font-family: Lato, sans-serif;
-}
-
-.shop-banner {
-  padding: 0 0;
-  margin: 0 0;
-  background-size: cover;
-  align-content: center;
-  width: 100%;
-  height: 100vh;
 }
 
 .shop-piece {
@@ -1160,7 +1160,7 @@ sub {
   padding-right: 1em;
 }
 
-.news-h1-sections {
+.news-h1 {
   padding-top: 1em;
   text-align: center;
 }
@@ -1190,10 +1190,6 @@ sub {
 
 .news-img {
   width: 100%;
-}
-
-.news-h1 {
-  text-align: center;
 }
 
 .news-h3 {
@@ -2937,6 +2933,11 @@ sub {
   color: #3DBB9A;
 }
 
+.gimg {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
 strong {
   color: #3DBB9A;
 }
@@ -2945,8 +2946,123 @@ a {
   text-decoration: none;
 }
 
+.btn-island {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  padding-bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.btn-island:hover {
+  background-color: #339f82;
+}
+
+.islandinfo {
+  padding-top: 1em;
+}
+
 .islandinfo li {
   list-style-type: none;
+}
+
+.espanola {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.fernandina {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.genovesa {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.isabela {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.marchena {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.pinta {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.sancristobal {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santacruz {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santiago {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.js-showhide {
+  display: block;
+}
+
+.left {
+  width: 300%;
+}
+
+@media only screen and (max-width: 38em) {
+  .left {
+    width: 100%;
+  }
+}
+
+.middle {
+  width: 300%;
+  left: -100%;
+}
+
+@media only screen and (max-width: 38em) {
+  .middle {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+.right {
+  width: 300%;
+  left: 1px;
+}
+
+@media only screen and (max-width: 38em) {
+  .right {
+    width: 100%;
+    left: 0px;
+  }
 }
 
 .conservation {
