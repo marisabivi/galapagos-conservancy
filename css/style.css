@@ -2685,8 +2685,40 @@ a {
   text-decoration: none;
 }
 
+.btn-island {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+}
+
+.btn-island:hover {
+  background-color: #339f82;
+}
+
 .islandinfo li {
   list-style-type: none;
+}
+
+.espanola {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.fernandina {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.js-showhide {
+  display: block;
 }
 
 /* galapagos-conservancy */
