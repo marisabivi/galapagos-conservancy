@@ -17,6 +17,27 @@ img {
   width: 100%;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -4em;
+  background-color: #092928;
+  color: #EFEEED;
+  font-weight: 100;
+  padding: 0.75em 0.75em;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -1111,30 +1132,75 @@ sub {
   box-sizing: border-box;
 }
 
-.fixednav {
+.news {
+  padding: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .news {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .news {
+    padding-right: 12em;
+  }
+}
+
+.news h3 {
+  text-align: center;
+}
+
+.news h4 {
+  color: #3DBB9A;
+}
+
+.news .fixednav {
+  padding-right: 1em;
+}
+
+.news-fixednav {
   border-radius: 5px;
   position: fixed;
   top: 8em;
-  width: 8em;
   padding: 1em;
+  width: 11em;
   padding-left: 2.2em;
   left: -5px;
   background-color: #EFEEED;
 }
 
-.fixednav a {
+.news-fixednav a {
   color: #3DBB9A;
   text-decoration: none;
 }
 
-.fixednav a:hover {
+.news-fixednav a:hover {
   color: #339f82;
 }
 
+@media only screen and (min-width: 60em) {
+  .news-fixednav {
+    width: 15em;
+  }
+}
+
 @media only screen and (max-width: 38em) {
-  .fixednav {
+  .news-fixednav {
     display: none;
   }
+}
+
+.news-h2-sections {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.news-section {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .news-section-image {
@@ -1155,54 +1221,34 @@ sub {
   color: #d9464d;
 }
 
-.news {
-  padding: 2em;
-  padding-left: 12em;
-  text-align: left;
-}
-
-@media only screen and (max-width: 38em) {
-  .news {
-    padding: 2em;
-  }
-}
-
-@media only screen and (min-width: 75em) {
-  .news {
-    padding-right: 12em;
-  }
-}
-
-.news-h1 {
-  text-align: center;
-}
-
 .news-img {
   width: 100%;
 }
 
 .news-h2 {
   text-align: center;
-  font-size: 2em;
 }
 
 .news-h3 {
   text-align: center;
-  font-size: 1.1250em;
-  color: #3DBB9A;
+  margin: 0;
 }
 
 .news-h4 {
   text-align: center;
-  font-size: 1em;
   color: #3DBB9A;
 }
 
 .news-h5 {
+  text-align: center;
+  padding: 0;
+  color: #3DBB9A;
+}
+
+.news-h6 {
   text-align: left;
   margin: 0;
   padding: 0;
-  font-size: 0.8889em;
   color: #3DBB9A;
 }
 
@@ -2813,12 +2859,25 @@ sub {
   }
 }
 
+.about h1 {
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
 .about h3 {
   text-align: center;
 }
 
 .about h4 {
   color: #3DBB9A;
+}
+
+.beach {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .reports a {
@@ -2846,11 +2905,11 @@ sub {
 .fixednav {
   border-radius: 5px;
   position: fixed;
-  top: 8em;
+  top: 4.1em;
   width: auto;
   padding: 1em;
   padding-left: 3em;
-  padding-right: 2.8em;
+  padding-right: 2em;
   left: -5px;
   background-color: #EFEEED;
 }
@@ -2925,6 +2984,54 @@ a {
 
 .islandinfo li {
   list-style-type: none;
+}
+
+.conservation {
+  padding: 2em;
+  padding-left: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .conservation {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .conservation {
+    padding-right: 12em;
+  }
+}
+
+.conservation h1 {
+  text-align: center;
+}
+
+.conservation h2 {
+  text-align: center;
+}
+
+.conservation h3 {
+  text-align: center;
+}
+
+.conservation h4 {
+  color: #3DBB9A;
+}
+
+.conservation .fixednav {
+  padding: 1.5em;
+}
+
+.conservation .list li {
+  list-style-type: circle;
+  background-color: #fff;
+}
+
+.cimg {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 /* galapagos-conservancy */
