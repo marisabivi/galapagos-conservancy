@@ -2911,10 +2911,6 @@ sub {
   }
 }
 
-.galapagos li {
-  list-style-type: circle;
-}
-
 .galapagos .fixednav li {
   list-style-type: none;
 }
