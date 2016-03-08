@@ -12,32 +12,6 @@ html {
   height: 4.1em;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.skip-links a {
-  position: absolute;
-  top: -4em;
-  background-color: #092928;
-  color: #EFEEED;
-  font-weight: 100;
-  padding: 0.75em 0.75em;
-  text-decoration: none;
-  z-index: 100;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-
 .list {
   padding: 0;
   margin: 0;
@@ -352,8 +326,6 @@ ul {
 
 footer {
   background-color: #092928;
-  position: relative;
-  z-index: 1000;
 }
 
 /*
@@ -900,7 +872,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1rem;
+  margin: 0 0 1.5rem;
 }
 
 .yotta {
@@ -1082,7 +1054,7 @@ sub {
 }
 
 .article {
-  padding: 2em;
+  padding: 0;
   margin: 0;
 }
 
@@ -1092,23 +1064,16 @@ sub {
 }
 
 .shop-h1 {
-  color: #3DBB9A;
+  color: #F16067;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h1-title {
-  color: #000;
+.shop-h2 {
+  text-align: center;
+  color: #F16067;
   text-decoration: none;
   font-family: Lato, sans-serif;
-  text-align: center;
-}
-
-.shop-h4-title {
-  color: #3DBB9A;
-  text-decoration: none;
-  font-family: Lato, sans-serif;
-  text-align: center;
 }
 
 .shop-h3 {
@@ -1128,46 +1093,43 @@ sub {
   font-family: Lato, sans-serif;
 }
 
+.shop-banner {
+  padding: 0 0;
+  margin: 0 0;
+  background-size: cover;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
 .shop-piece {
   box-sizing: border-box;
 }
 
-.news {
-  text-align: left;
+.fixednav {
+  border-radius: 5px;
+  position: fixed;
+  top: 8em;
+  width: 8em;
+  padding: 1em;
+  padding-left: 2.2em;
+  left: -5px;
+  background-color: #EFEEED;
+}
+
+.fixednav a {
+  color: #3DBB9A;
+  text-decoration: none;
+}
+
+.fixednav a:hover {
+  color: #339f82;
 }
 
 @media only screen and (max-width: 38em) {
-  .news {
-    padding: 2em;
+  .fixednav {
+    display: none;
   }
-}
-
-@media only screen and (min-width: 75em) {
-  .news {
-    padding-right: 12em;
-  }
-}
-
-.news h3 {
-  text-align: center;
-}
-
-.news h4 {
-  color: #3DBB9A;
-}
-
-.news .fixednav {
-  padding-right: 1em;
-}
-
-.news-h1 {
-  padding-top: 1em;
-  text-align: center;
-}
-
-.news-section {
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .news-section-image {
@@ -1188,17 +1150,46 @@ sub {
   color: #d9464d;
 }
 
+.news {
+  padding: 2em;
+  padding-left: 12em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .news {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .news {
+    padding-right: 12em;
+  }
+}
+
+.news-h1 {
+  text-align: center;
+}
+
 .news-img {
   width: 100%;
 }
 
+.news-h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
 .news-h3 {
   text-align: center;
+  font-size: 1.1250em;
   color: #3DBB9A;
 }
 
 .news-h4 {
   text-align: center;
+  font-size: 1em;
   color: #3DBB9A;
 }
 
@@ -1206,7 +1197,7 @@ sub {
   text-align: left;
   margin: 0;
   padding: 0;
-  padding-left: 0.5em;
+  font-size: 0.8889em;
   color: #3DBB9A;
 }
 
@@ -1220,7 +1211,6 @@ sub {
 }
 
 .news-comments {
-  text-align: left;
   color: #3DBB9A;
 }
 
@@ -2458,6 +2448,7 @@ sub {
 .contain {
   color: #3DBB9A;
   text-align: center;
+  padding-top: .5em;
 }
 
 .input {
@@ -2520,11 +2511,6 @@ sub {
   color: #000;
 }
 
-.p a:focus {
-  text-decoration: none;
-  color: #F16067;
-}
-
 .b-0 {
   margin-bottom: 0;
 }
@@ -2532,12 +2518,13 @@ sub {
 .text {
   text-align: center;
   display: block;
+  margin: 1.5em;
 }
 
 .text h1 {
   color: #3DBB9A;
   margin: 0;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .text p {
@@ -2545,13 +2532,15 @@ sub {
 }
 
 .check {
-  text-align: center;
+  display: block;
+  text-align: left;
   font-size: 15px;
 }
 
 @media only screen and (min-width: 32em) {
   .left {
     float: left;
+    padding-left: 1em;
   }
   .right {
     float: right;
@@ -2560,245 +2549,8 @@ sub {
     border-right: 1px solid #DBDBDB;
     padding: 0;
     margin: 0;
-  }
-  .contain {
     padding: 1em;
   }
-}
-
-.billboard_i {
-  width: 100%;
-  height: 50vh;
-  position: relative;
-}
-
-.i-carousel {
-  overflow: hidden;
-  width: 100%;
-  height: 12.5em;
-  overflow: hidden;
-  display: block;
-}
-
-.i-carousel .i-panes {
-  padding: 0;
-  width: 500%;
-  overflow: hidden;
-  position: relative;
-  list-style-type: none;
-  animation: carousel 30s infinite;
-}
-
-.i-carousel .i-panes > li {
-  position: relative;
-  float: left;
-  width: 20%;
-}
-
-.i-carousel img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
-
-@keyframes carousel {
-  0% {
-    left: 0;
-  }
-  11% {
-    left: 0;
-  }
-  12.5% {
-    left: -100%;
-  }
-  23.5% {
-    left: -100%;
-  }
-  25% {
-    left: -200%;
-  }
-  36% {
-    left: -200%;
-  }
-  37.5% {
-    left: -300%;
-  }
-  48.5% {
-    left: -300%;
-  }
-  50% {
-    left: -400%;
-  }
-  61% {
-    left: -400%;
-  }
-  62.5% {
-    left: -300%;
-  }
-  73.5% {
-    left: -300%;
-  }
-  75% {
-    left: -200%;
-  }
-  86% {
-    left: -200%;
-  }
-  87.5% {
-    left: -100%;
-  }
-  98.5% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
-}
-
-@media only screen and (max-width: 38em) {
-  .i-carousel {
-    height: 12em;
-  }
-}
-
-@media only screen and (min-width: 38em) {
-  .i-carousel {
-    height: 23em;
-  }
-}
-
-.idonate-btn {
-  color: #EFEEED;
-  background-color: #3DBB9A;
-  width: 100%;
-  border: none;
-  height: 50px;
-  padding: 0;
-  font-size: 25px;
-}
-
-.idonate-btn:hover {
-  background-color: #339c81;
-}
-
-.idonate-btn div {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-.idonate-btn a {
-  color: #DBDBDB;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.idonate-btn a:link {
-  text-decoration: none;
-  color: #F16067;
-}
-
-.isign-btn {
-  color: #EFEEED;
-  background-color: #3DBB9A;
-  width: 100%;
-  border: none;
-  height: 50px;
-  padding: 0;
-  font-size: 25px;
-  border-left: 1px solid #DBDBDB;
-}
-
-.isign-btn:hover {
-  background-color: #339c81;
-}
-
-.isign-btn div {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-@media only screen and (min-width: 60em) {
-  background-color: #3DBB9A;
-  border-left: 1px solid #DBDBDB;
-  :hover {
-    background-color: #339c81;
-  }
-  .i-carousel {
-    height: 25em;
-  }
-}
-
-.i-about {
-  padding-left: 2em;
-  text-align: center;
-  padding-right: 2em;
-}
-
-.i-about a {
-  border: none;
-  text-decoration: none;
-  color: #000;
-}
-
-.i-about h2 {
-  padding: 0;
-  margin: 0;
-  padding-top: 10px;
-  border-bottom: 1px solid #DBDBDB;
-  line-height: 25px;
-}
-
-.i-about p {
-  padding-top: 5px;
-  padding-left: .5em;
-  text-align: left;
-}
-
-.bucket {
-  position: relative;
-  padding-right: 2em;
-}
-
-.news-img {
-  width: 100%;
-  display: inline-block;
-}
-
-@media only screen and (max-width: 60em) {
-  .text-bucket {
-    padding-right: 2em;
-  }
-}
-
-@media only screen and (min-width: 60em) {
-  .latest-news {
-    display: block;
-  }
-}
-
-.l-length {
-  overflow: hidden;
-  max-width: 75ch;
-}
-
-.embed-item {
-  position: absolute;
-  left: 0;
-  width: 80%;
-  height: 50%;
-  top: 0;
-}
-
-.embed {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.embed-16by9 {
-  padding: 56.27%;
 }
 
 .about {
@@ -2958,15 +2710,10 @@ a {
   background-color: #3DBB9A;
   padding-bottom: 0;
   padding-top: 20px;
-  width: 100%;
 }
 
 .btn-island:hover {
   background-color: #339f82;
-}
-
-.islandinfo {
-  padding-top: 1em;
 }
 
 .islandinfo li {
@@ -2985,84 +2732,8 @@ a {
   transition: all 150ms linear;
 }
 
-.genovesa {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.isabela {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.marchena {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.pinta {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.sancristobal {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.santacruz {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
-.santiago {
-  display: none;
-  position: relative;
-  transition: all 150ms linear;
-}
-
 .js-showhide {
   display: block;
-}
-
-.left {
-  width: 300%;
-}
-
-@media only screen and (max-width: 38em) {
-  .left {
-    width: 100%;
-  }
-}
-
-.middle {
-  width: 300%;
-  left: -100%;
-}
-
-@media only screen and (max-width: 38em) {
-  .middle {
-    width: 100%;
-    left: 0px;
-  }
-}
-
-.right {
-  width: 300%;
-  left: 1px;
-}
-
-@media only screen and (max-width: 38em) {
-  .right {
-    width: 100%;
-    left: 0px;
-  }
 }
 
 .conservation {
