@@ -2570,12 +2570,25 @@ sub {
   }
 }
 
+.about h1 {
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
 .about h3 {
   text-align: center;
 }
 
 .about h4 {
   color: #3DBB9A;
+}
+
+.beach {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .reports a {
@@ -2603,11 +2616,11 @@ sub {
 .fixednav {
   border-radius: 5px;
   position: fixed;
-  top: 8em;
+  top: 4.1em;
   width: auto;
   padding: 1em;
   padding-left: 3em;
-  padding-right: 2.8em;
+  padding-right: 2em;
   left: -5px;
   background-color: #EFEEED;
 }
@@ -2682,6 +2695,54 @@ a {
 
 .islandinfo li {
   list-style-type: none;
+}
+
+.conservation {
+  padding: 2em;
+  padding-left: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .conservation {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .conservation {
+    padding-right: 12em;
+  }
+}
+
+.conservation h1 {
+  text-align: center;
+}
+
+.conservation h2 {
+  text-align: center;
+}
+
+.conservation h3 {
+  text-align: center;
+}
+
+.conservation h4 {
+  color: #3DBB9A;
+}
+
+.conservation .fixednav {
+  padding: 1.5em;
+}
+
+.conservation .list li {
+  list-style-type: circle;
+  background-color: #fff;
+}
+
+.cimg {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 /* galapagos-conservancy */
