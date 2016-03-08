@@ -1,5 +1,5 @@
 .conservation {
-    padding: 2em;
+    padding-top: 1em;
     padding-left: 2em;
     text-align: left;
     @media only screen and (max-width: 38em) {
@@ -35,4 +35,8 @@
     
     width:100%;
     padding-bottom: 30px;
+}
+
+li {
+    text-align: left;
 }
