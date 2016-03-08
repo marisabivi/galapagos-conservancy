@@ -1158,7 +1158,7 @@ sub {
   padding-right: 1em;
 }
 
-.news-h1-sections {
+.news-h1 {
   padding-top: 1em;
   text-align: center;
 }
@@ -1188,10 +1188,6 @@ sub {
 
 .news-img {
   width: 100%;
-}
-
-.news-h1 {
-  text-align: center;
 }
 
 .news-h3 {
