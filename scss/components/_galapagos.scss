@@ -7,7 +7,7 @@
     @media only screen and (min-width: 75em) {
     padding-right: 12em;
     }
-    li { 
+    li {
         list-style-type: circle;
     }
     .fixednav  li{
@@ -31,7 +31,7 @@
 .gimg {
     width:100%;
     padding-bottom: 40px;
-    
+
 }
 
 
@@ -44,10 +44,24 @@ a {
     text-decoration: none;
 }
 
-
+.btn-island{
+  @include button($teal);
+}
 
 .islandinfo {
     li {
         list-style-type: none;
     }
+}
+
+.espanola{
+  @include showhide;
+}
+
+.fernandina{
+  @include showhide;
+}
+
+.js-showhide{
+  display: block;
 }

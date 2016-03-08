@@ -47,3 +47,9 @@
     padding: 13px 11px;
  }
 }
+
+@mixin showhide{
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
