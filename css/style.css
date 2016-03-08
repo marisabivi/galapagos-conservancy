@@ -2843,7 +2843,7 @@ sub {
 }
 
 .about {
-  padding: 2em;
+  padding-top: 1em;
   text-align: left;
 }
 
@@ -2875,6 +2875,10 @@ sub {
   color: #3DBB9A;
 }
 
+.about li {
+  text-align: left;
+}
+
 .beach {
   width: 100%;
   padding-bottom: 30px;
@@ -2899,7 +2903,7 @@ sub {
 }
 
 .mlist {
-  list-style-type: disc;
+  list-style-type: circle;
 }
 
 .fixednav {
