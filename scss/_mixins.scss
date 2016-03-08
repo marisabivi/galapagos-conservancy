@@ -48,8 +48,17 @@
  }
 }
 
+<<<<<<< HEAD
 @mixin showhide{
   display: none;
   position: relative;
   transition: all 150ms linear;
+=======
+@mixin padding {
+  padding-right: 2em;
+}
+
+@mixin img {
+  width: 100%;
+>>>>>>> gh-pages
 }
