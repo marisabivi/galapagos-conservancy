@@ -1135,39 +1135,7 @@ sub {
   padding-right: 1em;
 }
 
-.news-fixednav {
-  border-radius: 5px;
-  position: fixed;
-  top: 8em;
-  padding: 1em;
-  width: 11em;
-  padding-left: 2.2em;
-  left: -5px;
-  background-color: #EFEEED;
-}
-
-.news-fixednav a {
-  color: #3DBB9A;
-  text-decoration: none;
-}
-
-.news-fixednav a:hover {
-  color: #339f82;
-}
-
-@media only screen and (min-width: 60em) {
-  .news-fixednav {
-    width: 15em;
-  }
-}
-
-@media only screen and (max-width: 38em) {
-  .news-fixednav {
-    display: none;
-  }
-}
-
-.news-h2-sections {
+.news-h1-sections {
   padding-top: 1em;
   text-align: center;
 }
@@ -1199,13 +1167,13 @@ sub {
   width: 100%;
 }
 
-.news-h2 {
+.news-h1 {
   text-align: center;
 }
 
 .news-h3 {
   text-align: center;
-  margin: 0;
+  color: #3DBB9A;
 }
 
 .news-h4 {
@@ -1214,12 +1182,6 @@ sub {
 }
 
 .news-h5 {
-  text-align: center;
-  padding: 0;
-  color: #3DBB9A;
-}
-
-.news-h6 {
   text-align: left;
   margin: 0;
   padding: 0;
@@ -1236,6 +1198,7 @@ sub {
 }
 
 .news-comments {
+  text-align: left;
   color: #3DBB9A;
 }
 
@@ -2720,6 +2683,54 @@ a {
 
 .islandinfo li {
   list-style-type: none;
+}
+
+.conservation {
+  padding: 2em;
+  padding-left: 2em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 38em) {
+  .conservation {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .conservation {
+    padding-right: 12em;
+  }
+}
+
+.conservation h1 {
+  text-align: center;
+}
+
+.conservation h2 {
+  text-align: center;
+}
+
+.conservation h3 {
+  text-align: center;
+}
+
+.conservation h4 {
+  color: #3DBB9A;
+}
+
+.conservation .fixednav {
+  padding: 1.5em;
+}
+
+.conservation .list li {
+  list-style-type: circle;
+  background-color: #fff;
+}
+
+.cimg {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 /* galapagos-conservancy */
