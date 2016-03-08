@@ -2987,8 +2987,6 @@ a {
 }
 
 .conservation {
-  padding: 2em;
-  padding-left: 2em;
   text-align: left;
 }
 
@@ -3027,6 +3025,10 @@ a {
 .conservation .list li {
   list-style-type: circle;
   background-color: #fff;
+}
+
+.conservation li {
+  text-align: left;
 }
 
 .cimg {

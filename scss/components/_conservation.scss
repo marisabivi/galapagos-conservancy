@@ -1,6 +1,4 @@
 .conservation {
-    padding: 2em;
-    padding-left: 2em;
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -28,6 +26,9 @@
     list-style-type:circle;
     background-color: $white;
     }
+    }
+    li {
+    text-align: left;
     }
 }
 
