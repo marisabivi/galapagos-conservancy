@@ -3035,14 +3035,34 @@ a {
   width: 300%;
 }
 
+@media only screen and (max-width: 38em) {
+  .left {
+    width: 100%;
+  }
+}
+
 .middle {
   width: 300%;
   left: -100%;
 }
 
+@media only screen and (max-width: 38em) {
+  .middle {
+    width: 100%;
+    left: 0px;
+  }
+}
+
 .right {
   width: 300%;
   left: 1px;
+}
+
+@media only screen and (max-width: 38em) {
+  .right {
+    width: 100%;
+    left: 0px;
+  }
 }
 
 .conservation {
