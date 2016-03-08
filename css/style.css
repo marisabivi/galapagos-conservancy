@@ -2710,6 +2710,7 @@ a {
   background-color: #3DBB9A;
   padding-bottom: 0;
   padding-top: 20px;
+  width: 100%;
 }
 
 .btn-island:hover {

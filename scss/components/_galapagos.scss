@@ -48,6 +48,7 @@ a {
   @include button($teal);
    padding-bottom: 0;
    padding-top: 20px;
+   width: 100%; 
 }
 
 .islandinfo {

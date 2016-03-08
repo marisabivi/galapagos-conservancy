@@ -20,7 +20,7 @@ var $genovesa = $('.genovesa');
 var $isabela = $('.isabela');
 var $marchena = $('.marchena');
 var $pinta = $('.pinta');
-var $sancristobel = $('.sancristobal');
+var $sancristobal = $('.sancristobal');
 var $santacruz = $('.santacruz');
 var $santiago = $('.santiago');
 
