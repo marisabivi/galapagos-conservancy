@@ -1,23 +1,30 @@
-.fixednav {
-    border-radius: 5px;
-    position: fixed;
-    top: 8em;
-    width: 8em;
-    padding:1em;
-    padding-left: 2.2em;
-    left:-5px;
-    background-color: $off-white;
-    a {
+.news {
+    text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: 2em;
+    }
+    @media only screen and (min-width: 75em) {
+    padding-right: 12em;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
         color: $teal;
-        text-decoration: none;
-        &:hover {
-        color: $dark-teal;
-        }
     }
-    @media only screen and (max-width: 38em){
-        display:none;
+    .fixednav {
+        padding-right: 1em;
     }
+}
 
+.news-h1-sections {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.news-section {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .news-section-image {
@@ -36,40 +43,21 @@
     }
 }
 
-.news {
-    padding: 2em;
-    padding-left: 12em;
-    text-align: left;
-    @media only screen and (max-width: 38em) {
-    padding: 2em;
-    }
-    @media only screen and (min-width: 75em) {
-    padding-right: 12em;
-    }
+.news-img {
+    width: 100%;
 }
 
 .news-h1 {
     text-align: center;
 }
 
-.news-img {
-    width: 100%;
-}
-
-.news-h2 {
-    text-align: center;
-    font-size: 2em;
-}
-
 .news-h3 {
     text-align: center;
-    font-size: 1.1250em;
     color: $teal;
 }
 
 .news-h4 {
     text-align: center;
-    font-size: 1em;
     color: $teal;
 }
 
@@ -77,7 +65,7 @@
     text-align: left;
     margin: 0;
     padding: 0;
-    font-size: 0.8889em;
+    padding-left: 0.5em;
     color: $teal;
 }
 
@@ -90,6 +78,7 @@
 }
 
 .news-comments {
+    text-align: left;
     color: $teal;
 }
 
