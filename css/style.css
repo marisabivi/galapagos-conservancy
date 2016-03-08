@@ -1133,7 +1133,6 @@ sub {
 }
 
 .news {
-  padding: 2em;
   text-align: left;
 }
 
@@ -1211,6 +1210,7 @@ sub {
   text-align: left;
   margin: 0;
   padding: 0;
+  padding-left: 0.5em;
   color: #3DBB9A;
 }
 
