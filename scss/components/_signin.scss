@@ -5,7 +5,6 @@
 .contain{
 	color: $teal;
 	text-align: center;
-	padding-top: .5em;
 }
 
 .input{
@@ -59,6 +58,10 @@
 		&:hover{
 			color: $black;
 		}
+		&:focus{
+			text-decoration: none;
+			color: $pink;
+		}
 	}
 }
 
@@ -69,12 +72,11 @@
 .text{
 	text-align: center;
 	display: block;
-	margin: 1.5em;
 
 	h1{
 		color: $teal;
 		margin: 0;
-		font-size: 3em;
+		font-size: 4em;
 	}
 	p{
 		color: $black;
@@ -82,15 +84,13 @@
 }
 
 .check{
-	display: block;
-	text-align: left;
+	text-align: center;
 	font-size: 15px;
 }
 
 @media only screen and (min-width: 32em){
 	.left{
 		float: left;
-		padding-left: 1em;
 	}
 
 	.right{
@@ -100,6 +100,9 @@
 	.divider{
 		border-right: 1px solid $grey;
 		@include zero;
+	}
+
+	.contain{
 		padding: 1em;
 	}
 }
