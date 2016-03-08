@@ -12,6 +12,11 @@ html {
   height: 4.1em;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -2539,71 +2544,12 @@ sub {
   position: relative;
 }
 
-.idonate-btn {
-  color: #EFEEED;
-  background-color: #3DBB9A;
-  width: 100%;
-  border: none;
-  height: 50px;
-  padding: 0;
-  font-size: 25px;
-}
-
-.idonate-btn:hover {
-  background-color: #339c81;
-}
-
-.idonate-btn div {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-.idonate-btn a {
-  color: #DBDBDB;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.idonate-btn a:link {
-  text-decoration: none;
-  color: #F16067;
-}
-
-.isign-btn {
-  color: #EFEEED;
-  background-color: #3DBB9A;
-  width: 100%;
-  border: none;
-  height: 50px;
-  padding: 0;
-  font-size: 25px;
-  border-left: 1px solid #DBDBDB;
-}
-
-.isign-btn:hover {
-  background-color: #339c81;
-}
-
-.isign-btn div {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-@media only screen and (min-width: 60em) {
-  .isign-btn {
-    background-color: #3DBB9A;
-    border-left: 1px solid #DBDBDB;
-  }
-  .isign-btn:hover {
-    background-color: #339c81;
-  }
-}
-
 .i-carousel {
   overflow: hidden;
   width: 100%;
+  height: 12.5em;
+  overflow: hidden;
+  display: block;
 }
 
 .i-carousel .i-panes {
@@ -2683,24 +2629,82 @@ sub {
 
 @media only screen and (max-width: 38em) {
   .i-carousel {
-    height: 60vh;
-  }
-  .i-carousel img {
-    height: 60vh;
+    height: 12em;
   }
 }
 
 @media only screen and (min-width: 38em) {
   .i-carousel {
-    height: 60vh;
+    height: 23em;
   }
-  .i-carousel img {
-    height: 60vh;
+}
+
+.idonate-btn {
+  color: #EFEEED;
+  background-color: #3DBB9A;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.idonate-btn:hover {
+  background-color: #339c81;
+}
+
+.idonate-btn div {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.idonate-btn a {
+  color: #DBDBDB;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.idonate-btn a:link {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.isign-btn {
+  color: #EFEEED;
+  background-color: #3DBB9A;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding: 0;
+  font-size: 25px;
+  border-left: 1px solid #DBDBDB;
+}
+
+.isign-btn:hover {
+  background-color: #339c81;
+}
+
+.isign-btn div {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 60em) {
+  background-color: #3DBB9A;
+  border-left: 1px solid #DBDBDB;
+  :hover {
+    background-color: #339c81;
+  }
+  .i-carousel {
+    height: 25em;
   }
 }
 
 .i-about {
   padding-left: 2em;
+  text-align: center;
 }
 
 .i-about a {
@@ -2714,25 +2718,24 @@ sub {
   margin: 0;
   padding-top: 10px;
   border-bottom: 1px solid #DBDBDB;
+  width: 10em;
   line-height: 25px;
 }
 
 .i-about p {
   padding-top: 5px;
   padding-left: .5em;
+  text-align: left;
 }
 
 .bucket {
   position: relative;
+  padding-right: 2em;
 }
 
 .news-img {
   width: 100%;
   display: inline-block;
-}
-
-.bucket {
-  padding-right: 2em;
 }
 
 @media only screen and (max-width: 60em) {

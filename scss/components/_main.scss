@@ -11,6 +11,12 @@ html {
 	height:4.1em;
 }
 
+
+img {
+  display: block;
+  width: 100%;
+}
+
 .list{
 	@include zero;
 	background-color: $dark-green;
