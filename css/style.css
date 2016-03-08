@@ -3031,6 +3031,20 @@ a {
   display: block;
 }
 
+.left {
+  width: 300%;
+}
+
+.middle {
+  width: 300%;
+  left: -100%;
+}
+
+.right {
+  width: 300%;
+  left: 1px;
+}
+
 .conservation {
   padding: 2em;
   padding-left: 2em;

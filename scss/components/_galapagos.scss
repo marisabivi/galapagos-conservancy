@@ -98,3 +98,17 @@ a {
 .js-showhide{
   display: block;
 }
+
+.left {
+    width:300%;
+}
+
+.middle {
+    width: 300%;
+    left: -100%;
+}
+
+.right {
+    width: 300%;
+    left: 1px;
+}
