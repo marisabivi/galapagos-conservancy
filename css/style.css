@@ -3008,6 +3008,10 @@ a {
   background-color: #339f82;
 }
 
+.islandinfo {
+  padding-top: 1em;
+}
+
 .islandinfo li {
   list-style-type: none;
 }
