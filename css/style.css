@@ -1399,10 +1399,10 @@ sub {
 }
 
 @media only screen and (min-width: 32em) {
-  .left {
+  .s-left {
     float: left;
   }
-  .right {
+  .s-right {
     float: right;
   }
   .divider {
@@ -1662,15 +1662,34 @@ sub {
   background-color: #EFEEED;
 }
 
-.bucket-text {
+.ul-news {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ul-news li {
+  display: inline-block;
   position: relative;
-  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-news .bucket-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
   width: 100%;
-  visibility: hidden;
-  bottom: 60px;
+  left: 0;
+}
+
+.ul-news .bucket-text span {
   background-color: #3DBB9A;
   color: #fff;
-  padding: 1em;
+  display: table;
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0;
 }
 
 .about {
