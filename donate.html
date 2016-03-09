@@ -4,77 +4,50 @@ layout: default
 <div class="bg contain">
 	<h1>Donation</h1>
 	<div class="grid">
+		<form>
 		<div class="unit unit-s-1 unit-m-1-2">
 			<div class="contain right divider">
-				<form>
-					<h5>My Information</h5>
+				<h5>My Information</h5>
 					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="name" name="first-name" class="input" placeholder="First Name"/></div>
 	  			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="name" name="last-name" class="input" placeholder="Last Name"/></div>
     			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="address-1" class="input" placeholder="Address Line 1"/></div>
     			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="address-2" class="input" placeholder="Address Line 2"/></div>
 					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="email" name="email" class="input" placeholder="E-mail"/></div>
 
-
-					<h5>My Location </h5>
-						<div class="unit unit-s-1 unit-m-1 unit-l-1">
-						<div class="form-item">
-							<input id="country_selector" class="input" type="text" placeholder="Country">
-							<label for="country_selector" style="display:none;"></label>
-						</div>
-						<div class="form-item" style="display:none;">
-							<input type="text" class="input" id="country_selector_code" name="country_selector_code" data-countrycodeinput="1" readonly="readonly" placeholder="Selected country code will appear here" />
-						<label for="country_selector_code">...and the selected country code will be updated here</label>
-						</div>
-						<button type="submit" style="display:none;">Submit</button>
-
-
-				<!-- Load jQuery from CDN so can run demo immediately -->
-						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-						<script src="build/js/countrySelect.min.js"></script>
-						<script>
-							$("#country_selector").countrySelect({
-								//defaultCountry: "jp",
-								//onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-							preferredCountries: ['ca', 'gb', 'us']
-							});
-							</script>
-						</div>
-
-
-				<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="city" class="input" placeholder="City"/></div>
-				<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="region" class="input" placeholder="State/Province/Region"/></div>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="zip" class="input" placeholder="Postal Code/ZIP"/></div>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="tel" name="t-number" class="input" placeholder="Telephone Number"/></div>
-		  </div>
-			</div>
+				<h5>My Location </h5>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="country" name="country" class="input" placeholder="Country"/></div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="city" class="input" placeholder="City"/></div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="region" class="input" placeholder="State/Province/Region"/></div>
+	      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="zip" class="input" placeholder="Postal Code/ZIP"/></div>
+      		<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="tel" name="t-number" class="input" placeholder="Telephone Number"/></div>
+		  </div> <!-- right section -->
+		</div> <!-- right section -->
 
 
 		<div class="unit unit-s-1 unit-m-1-2">
 			<div class="contain left">
 				<h5>Card Information</h5>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-name" class="input" placeholder="Name on Card"/></div>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-numb" class="input" placeholder="Card Number"/></div>
+      		<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-name" class="input" placeholder="Name on Card"/></div>
+      		<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-numb" class="input" placeholder="Card Number"/></div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1">Experiation date (Month, Year)</div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="month" class="input"/></div>
+      		<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="sec-numb" class="input" placeholder="Security Number (on the back of card)"/></div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1">$<input type="number" class="input" placeholder="Donation Amount" min="0"/></div>
+					<div class="unit unit-s-1 unit-m-1 unit-l-1">
+						<input type="checkbox" class="checkbox">
+							<lable for="once">One time</lable>
+						<input type="checkbox" class="checkbox">
+							<lable for="monthly">Monthly</lable>
+						<input type="checkbox" class="checkbox">
+							<lable for="yearly">Yearly</lable>
+					</div> <!-- end of payment occurances -->
 
-				<div class="unit unit-s-1 unit-m-1 unit-l-1">Experiation date (Month, Year)</div>
-				<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="month" class="input"/></div>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="sec-numb" class="input" placeholder="Security Number (on the back of card)"/></div>
+			</div> <!-- left section -->
+		</div> <!-- left section -->
+		</form>
+	</div> <!-- class grid end -->
 
-
-			<div class="unit unit-s-1 unit-m-1 unit-l-1">$<input type="number" class="input" placeholder="Donation Amount" min="0"/></div>
-			<div class="unit unit-s-1 unit-m-1 unit-l-1">
-				<input type="checkbox" class="checkbox">
-					<lable for="once">One time</lable>
-				<input type="checkbox" class="checkbox">
-					<lable for="monthly">Monthly</lable>
-				<input type="checkbox" class="checkbox">
-					<lable for="yearly">Yearly</lable>
-			</div>
-			</form>
-
-		</div>
-		</div>
-		</div>
 	<div class="pad-bottom">
 		<div class="btn-submit"><a href="{{site.baseurl}}/thankyou/">Submit</a></div>
 	</div>
-</div>
+</div> <!-- end of bg contain -->
