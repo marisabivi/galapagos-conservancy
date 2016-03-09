@@ -17,3 +17,11 @@ $('.more').click(function() {
     $(this).prev('div').slideToggle();
     $(this).html('less');
 });
+
+$('.hover').mouseover(function() {
+  $('.bucket-text').css("visibility","visible");
+});
+
+$('.hover').mouseout(function() {
+  $('.bucket-text').css("visibility","hidden");
+});
