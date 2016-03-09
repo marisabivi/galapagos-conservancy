@@ -1106,6 +1106,7 @@ sub {
   color: #3DBB9A;
   text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'lato';
 }
 
@@ -1122,6 +1123,9 @@ sub {
 
 .shop-piece {
   box-sizing: border-box;
+=======
+  font-family: Lato, sans-serif;
+>>>>>>> origin/gh-pages
 =======
   font-family: Lato, sans-serif;
 >>>>>>> origin/gh-pages
