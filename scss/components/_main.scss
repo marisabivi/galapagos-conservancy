@@ -11,6 +11,32 @@ html {
 	height:4.1em;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -4em;
+    background-color:$dark-green;
+    color: $off-white;
+    font-weight: 100;
+    padding: 0.75em 0.75em;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
 .list{
 	@include zero;
 	background-color: $dark-green;
@@ -275,5 +301,7 @@ ul {
 
 footer {
     background-color: $dark-green;
+    position: relative;
+    z-index: 1000;
 		}
 // footer
