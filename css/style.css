@@ -352,6 +352,8 @@ ul {
 
 footer {
   background-color: #092928;
+  position: relative;
+  z-index: 1000;
 }
 
 /*
@@ -2940,8 +2942,123 @@ a {
   text-decoration: none;
 }
 
+.btn-island {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  padding-bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.btn-island:hover {
+  background-color: #339f82;
+}
+
+.islandinfo {
+  padding-top: 1em;
+}
+
 .islandinfo li {
   list-style-type: none;
+}
+
+.espanola {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.fernandina {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.genovesa {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.isabela {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.marchena {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.pinta {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.sancristobal {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santacruz {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santiago {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.js-showhide {
+  display: block;
+}
+
+.left {
+  width: 300%;
+}
+
+@media only screen and (max-width: 38em) {
+  .left {
+    width: 100%;
+  }
+}
+
+.middle {
+  width: 300%;
+  left: -100%;
+}
+
+@media only screen and (max-width: 38em) {
+  .middle {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+.right {
+  width: 300%;
+  left: 1px;
+}
+
+@media only screen and (max-width: 38em) {
+  .right {
+    width: 100%;
+    left: 0px;
+  }
 }
 
 .conservation {
