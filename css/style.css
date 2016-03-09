@@ -1396,8 +1396,19 @@ sub {
   background-position: -32px -44px;
 }
 
+<<<<<<< HEAD
 .country-select .ua {
   background-position: -48px -44px;
+=======
+.i-carousel .i-panes {
+  padding: 0;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  list-style-type: none;
+  -webkit-animation: carousel 30s infinite;
+          animation: carousel 30s infinite;
+>>>>>>> gh-pages
 }
 
 .country-select .tz {
@@ -1408,8 +1419,117 @@ sub {
   background-position: -64px -11px;
 }
 
+<<<<<<< HEAD
 .country-select .tv {
   background-position: -64px -22px;
+=======
+@-webkit-keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+>>>>>>> gh-pages
 }
 
 .country-select .tt {
@@ -2755,6 +2875,7 @@ sub {
   margin: 0;
 }
 
+<<<<<<< HEAD
 .idonate-btn a {
   color: #DBDBDB;
   text-decoration: none;
@@ -2886,6 +3007,12 @@ sub {
   position: relative;
   text-align: left;
   width: 100%;
+=======
+.bucket-text {
+  position: relative;
+  text-align: left;
+  width: 100%;
+>>>>>>> gh-pages
   visibility: hidden;
   bottom: 60px;
   background-color: #3DBB9A;
