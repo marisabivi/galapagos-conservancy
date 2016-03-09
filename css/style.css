@@ -117,11 +117,15 @@ img {
     height: 100%;
     position: relative;
     background-color: #092928;
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
   .site-wrapper[data-state="slide-open"] .sliding-canvas {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   .site-wrapper[data-state="slide-open"] {
     overflow: hidden;
@@ -352,6 +356,8 @@ ul {
 
 footer {
   background-color: #092928;
+  position: relative;
+  z-index: 1000;
 }
 
 /*
@@ -368,25 +374,30 @@ footer {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 
 .opera-only :-o-prefocus, .grid {
@@ -861,7 +872,8 @@ footer {
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
-  flex-grow: 2;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
   max-width: 100%;
   /* @bugfix: IE 10, 11 */
 }
@@ -869,7 +881,8 @@ footer {
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
-  align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
 }
 
 html {
@@ -1080,7 +1093,7 @@ sub {
 }
 
 .article {
-  padding: 0;
+  padding: 2em;
   margin: 0;
 }
 
@@ -1090,16 +1103,46 @@ sub {
 }
 
 .shop-h1 {
-  color: #F16067;
+  color: #3DBB9A;
   text-decoration: none;
-  font-family: Lato, sans-serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  font-family: 'lato';
 }
 
-.shop-h2 {
-  text-align: center;
-  color: #F16067;
+.shop-banner {
+  padding: 0 0;
+  margin: 0 0;
+  background-size: cover;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.shop-piece {
+  box-sizing: border-box;
+=======
+  font-family: Lato, sans-serif;
+>>>>>>> origin/gh-pages
+=======
+  font-family: Lato, sans-serif;
+>>>>>>> origin/gh-pages
+}
+
+.shop-h1-title {
+  color: #000;
   text-decoration: none;
   font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.shop-h4-title {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  text-align: center;
 }
 
 .shop-h3 {
@@ -1119,21 +1162,11 @@ sub {
   font-family: Lato, sans-serif;
 }
 
-.shop-banner {
-  padding: 0 0;
-  margin: 0 0;
-  background-size: cover;
-  align-content: center;
-  width: 100%;
-  height: 100vh;
-}
-
 .shop-piece {
   box-sizing: border-box;
 }
 
 .news {
-  padding: 2em;
   text-align: left;
 }
 
@@ -1161,39 +1194,7 @@ sub {
   padding-right: 1em;
 }
 
-.news-fixednav {
-  border-radius: 5px;
-  position: fixed;
-  top: 8em;
-  padding: 1em;
-  width: 11em;
-  padding-left: 2.2em;
-  left: -5px;
-  background-color: #EFEEED;
-}
-
-.news-fixednav a {
-  color: #3DBB9A;
-  text-decoration: none;
-}
-
-.news-fixednav a:hover {
-  color: #339f82;
-}
-
-@media only screen and (min-width: 60em) {
-  .news-fixednav {
-    width: 15em;
-  }
-}
-
-@media only screen and (max-width: 38em) {
-  .news-fixednav {
-    display: none;
-  }
-}
-
-.news-h2-sections {
+.news-h1 {
   padding-top: 1em;
   text-align: center;
 }
@@ -1225,13 +1226,9 @@ sub {
   width: 100%;
 }
 
-.news-h2 {
-  text-align: center;
-}
-
 .news-h3 {
   text-align: center;
-  margin: 0;
+  color: #3DBB9A;
 }
 
 .news-h4 {
@@ -1240,15 +1237,10 @@ sub {
 }
 
 .news-h5 {
-  text-align: center;
-  padding: 0;
-  color: #3DBB9A;
-}
-
-.news-h6 {
   text-align: left;
   margin: 0;
   padding: 0;
+  padding-left: 0.5em;
   color: #3DBB9A;
 }
 
@@ -1262,6 +1254,7 @@ sub {
 }
 
 .news-comments {
+  text-align: left;
   color: #3DBB9A;
 }
 
@@ -2359,8 +2352,6 @@ sub {
 }
 
 .country-select * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -2997,6 +2988,11 @@ sub {
   color: #3DBB9A;
 }
 
+.gimg {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
 strong {
   color: #3DBB9A;
 }
@@ -3005,8 +3001,123 @@ a {
   text-decoration: none;
 }
 
+.btn-island {
+  text-align: center;
+  display: block;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #EFEEED;
+  text-decoration: none;
+  color: #EFEEED;
+  font-size: 1.5em;
+  background-color: #3DBB9A;
+  padding-bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.btn-island:hover {
+  background-color: #339f82;
+}
+
+.islandinfo {
+  padding-top: 1em;
+}
+
 .islandinfo li {
   list-style-type: none;
+}
+
+.espanola {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.fernandina {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.genovesa {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.isabela {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.marchena {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.pinta {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.sancristobal {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santacruz {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.santiago {
+  display: none;
+  position: relative;
+  transition: all 150ms linear;
+}
+
+.js-showhide {
+  display: block;
+}
+
+.left {
+  width: 300%;
+}
+
+@media only screen and (max-width: 38em) {
+  .left {
+    width: 100%;
+  }
+}
+
+.middle {
+  width: 300%;
+  left: -100%;
+}
+
+@media only screen and (max-width: 38em) {
+  .middle {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+.right {
+  width: 300%;
+  left: 1px;
+}
+
+@media only screen and (max-width: 38em) {
+  .right {
+    width: 100%;
+    left: 0px;
+  }
 }
 
 .conservation {
@@ -3131,3 +3242,5 @@ a {
 .icon-close:before {
   content: "\6a";
 }
+
+/*# sourceMappingURL=style.css.map */
