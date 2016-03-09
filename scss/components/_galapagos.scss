@@ -1,14 +1,8 @@
 .galapagos {
-    padding: 2em;
+    padding-top: 1em;
     text-align: left;
-    @media only screen and (max-width: 38em) {
-    padding: 2em;
-    }
-    @media only screen and (min-width: 75em) {
-    padding-right: 12em;
-    }
 
-    .fixednav  li{
+    li{
         list-style-type: none;
     }
     h1 {
@@ -21,6 +15,8 @@
         text-align: center;
     }
     h4 {
+        text-align: left;
+        padding-left:.5em;
         color: $teal;
     }
 
