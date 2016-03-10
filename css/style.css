@@ -1662,34 +1662,15 @@ sub {
   background-color: #EFEEED;
 }
 
-.ul-news {
-  list-style-type: none;
-  padding: 0;
-}
-
-.ul-news li {
-  display: inline-block;
+.bucket-text {
   position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.ul-news .bucket-text {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  text-align: left;
   width: 100%;
-  left: 0;
-}
-
-.ul-news .bucket-text span {
+  visibility: hidden;
+  bottom: 60px;
   background-color: #3DBB9A;
   color: #fff;
-  display: table;
-  position: absolute;
-  opacity: 0;
-  top: 0px;
-  left: 0;
+  padding: 1em;
 }
 
 .about {
