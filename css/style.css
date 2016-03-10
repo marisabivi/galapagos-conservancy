@@ -1992,7 +1992,7 @@ a {
 
 .right {
   width: 300%;
-  left: 1px;
+  left: -200%;
 }
 
 @media only screen and (max-width: 38em) {
