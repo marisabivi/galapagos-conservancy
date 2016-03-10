@@ -1111,6 +1111,11 @@ sub {
   text-align: center;
 }
 
+.i-about {
+  text-decoration: none;
+  color: #000;
+}
+
 .shop-h3 {
   color: #F16067;
   text-decoration: none;
