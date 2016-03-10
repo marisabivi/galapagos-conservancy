@@ -2,21 +2,18 @@
 layout: default
 ---
 <div class="bg contain">
-
 	<div class="grid">
 		<div class="unit unit-s-1">
 			<h1>Donation</h1>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2">
 			<div class="contain s-right">
-				<form>
 					<h5>My Information</h5>
 					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="name" name="first-name" class="input" placeholder="First Name"/></div>
 	  			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="name" name="last-name" class="input" placeholder="Last Name"/></div>
     			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="address-1" class="input" placeholder="Address Line 1"/></div>
     			<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="address-2" class="input" placeholder="Address Line 2"/></div>
 					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="email" name="email" class="input" placeholder="E-mail"/></div>
-
 
 					<h5>My Location </h5>
 					<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="country" class="input" placeholder="Country"/></div>
@@ -27,12 +24,12 @@ layout: default
 			</div> <!-- /s-right -->
 		</div> <!-- /unit -->
 
-
 		<div class="unit unit-s-1 unit-m-1-2">
 			<div class="contain s-left">
 				<h5>Card Information</h5>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-name" class="input" placeholder="Name on Card"/></div>
-      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-numb" class="input" placeholder="Card Number"/></div>
+
+      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-name" class="input name-card" placeholder="Name on Card"/></div>
+      	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="card-numb" class="input num-card" placeholder="Card Number"/></div>
 				<div class="unit unit-s-1 unit-m-1 unit-l-1 micro">Experiation date (Month, Year)</div>
 				<div class="unit unit-s-1 unit-m-1 unit-l-1"><select name="month" id="month">
 						<option value="01">01</option>
@@ -72,6 +69,7 @@ layout: default
 							<option value="12">2037</option></select> <!-- /year-->
 				</div>
       	<div class="unit unit-s-1 unit-m-1 unit-l-1"><input type="text" name="sec-numb" class="input security" placeholder="Security Number (on the back of card)"/></div>
+
 				<div class="unit unit-s-1 unit-m-1 unit-l-1">$<input type="number" class="input donation" placeholder="Donation Amount" min="0"/></div>
 				<div class="unit unit-s-1 unit-m-1 unit-l-1 micro">
 					<input type="checkbox" class="checkbox time">
@@ -82,10 +80,10 @@ layout: default
 						<lable for="yearly">Yearly</lable>
 				</div><!-- time options -->
 			</div> <!-- /s-left -->
+
 		</div> <!-- /unit -->
 	</div> <!-- /grid -->
-
 	<div class="pad-bottom">
 		<div class="btn-submit"><a role ="button" href="{{site.baseurl}}/thankyou/">Submit</a></div>
 	</div>
-</div> <!-- end of bg contain -->
+</div>
