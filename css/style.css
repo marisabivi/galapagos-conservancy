@@ -1662,19 +1662,80 @@ sub {
   background-color: #EFEEED;
 }
 
-.bucket-text {
-  position: relative;
-  text-align: left;
-  width: 100%;
-  visibility: hidden;
-  bottom: 60px;
-  background-color: #3DBB9A;
+#overlay {
+  background-color: rgba(61, 187, 154, 0.6);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 0;
+}
+
+#box-ln {
+  background: url("../img/news-year-in-review.jpg");
+  background-size: cover;
+}
+
+#box-ln:hover #overlay {
+  opacity: 1;
+}
+
+#box-ln-1 {
+  background: url("../img/news-tortoise-close-up.jpg");
+  background-size: cover;
+}
+
+#box-ln-1:hover #overlay {
+  opacity: 1;
+}
+
+#box-ln-2 {
+  background: url("../img/news-galapagos-islands.jpg");
+  background-size: cover;
+}
+
+#box-ln-2:hover #overlay {
+  opacity: 1;
+}
+
+#box-ln-3 {
+  background: url("../img/island-santa-fe.jpg");
+  background-size: cover;
+}
+
+#box-ln-3:hover #overlay {
+  opacity: 1;
+}
+
+#box-ln-4 {
+  background: url("../img/news-darwin-finch.jpg");
+  background-size: cover;
+}
+
+#box-ln-4:hover #overlay {
+  opacity: 1;
+}
+
+#box-ln-5 {
+  background: url("../img/news-giant-tortoise-3.jpg");
+  background-size: cover;
+}
+
+#box-ln-5:hover #overlay {
+  opacity: 1;
+}
+
+#text {
   color: #fff;
-  padding: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.span {
+  padding: 0;
+  margin: 0;
 }
 
 .about {
-  padding: 2em;
+  padding-top: 1em;
   text-align: left;
 }
 
@@ -1706,6 +1767,10 @@ sub {
   color: #3DBB9A;
 }
 
+.about li {
+  text-align: left;
+}
+
 .beach {
   width: 100%;
   padding-bottom: 30px;
@@ -1730,7 +1795,7 @@ sub {
 }
 
 .mlist {
-  list-style-type: disc;
+  list-style-type: circle;
 }
 
 .fixednav {
