@@ -1104,6 +1104,16 @@ sub {
   text-align: center;
 }
 
+.shop-h2 {
+  color: #F16067;
+}
+
+.shop-h3 {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
 .shop-h4-title {
   color: #3DBB9A;
   text-decoration: none;
@@ -1111,21 +1121,23 @@ sub {
   text-align: center;
 }
 
-.i-about {
-  text-decoration: none;
-  color: #000;
+.shop-h4-adopt {
+  color: #3DBB9A;
 }
 
-.shop-h3 {
+.shop-h4 {
   color: #F16067;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h4 {
-  color: #3DBB9A;
+.i-about {
   text-decoration: none;
-  font-family: Lato, sans-serif;
+}
+
+.link {
+  color: #F16067;
+  text-decoration: none;
 }
 
 .shop-paragraph {

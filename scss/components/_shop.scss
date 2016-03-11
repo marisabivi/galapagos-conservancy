@@ -21,6 +21,16 @@
     text-align: center;
 }
 
+.shop-h2 {
+    color: $pink;
+}
+
+.shop-h3 {
+    color: $teal;
+    text-decoration: none;
+    font-family: $lato;
+}
+
 .shop-h4-title {
     color: $teal;
     text-decoration: none;
@@ -28,29 +38,29 @@
     text-align: center;
 }
 
-.i-about {
-    text-decoration: none;
-    color: $black;
+.shop-h4-adopt {
+    color: $teal;
 }
-
-.shop-h3 {
+    
+.shop-h4 {
     color: $pink;
     text-decoration: none;
     font-family: $lato;
 }
-    
 
-.shop-h4 {
-    color: $teal;
+.i-about {
     text-decoration: none;
-    font-family: $lato;
+}
+
+.link {
+    color: $pink;
+    text-decoration: none;
 }
 
 .shop-paragraph {
     color: $black;
     font-family: $lato;
 }
-
 
 .shop-piece {
     box-sizing: border-box;
