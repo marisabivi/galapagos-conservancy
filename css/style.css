@@ -7,16 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-.header {
-  background-color: #092928;
-  height: 4.1em;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
 .skip-links {
   margin: 0;
   padding: 0;
@@ -38,6 +28,16 @@ img {
   top: 0;
 }
 
+.header {
+  background-color: #092928;
+  height: 4.1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -56,6 +56,10 @@ img {
   float: left;
   left: .5em;
   width: 7em;
+}
+
+.navigation {
+  background-color: #092928;
 }
 
 .navigation ul {
