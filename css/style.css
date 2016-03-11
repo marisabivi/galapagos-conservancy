@@ -58,6 +58,10 @@ img {
   width: 7em;
 }
 
+.navigation {
+  background-color: #092928;
+}
+
 .navigation ul {
   padding: 1em;
 }
