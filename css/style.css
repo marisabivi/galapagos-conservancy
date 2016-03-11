@@ -1135,9 +1135,13 @@ sub {
   text-decoration: none;
 }
 
-.link {
-  color: #F16067;
+.shop-link {
   text-decoration: none;
+  color: #F16067;
+}
+
+.shop-link:hover {
+  color: #d9464d;
 }
 
 .shop-paragraph {
