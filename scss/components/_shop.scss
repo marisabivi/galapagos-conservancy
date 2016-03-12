@@ -68,3 +68,10 @@
 .shop-piece {
     box-sizing: border-box;
 }
+
+.shop-piece-opacity {
+        width: 100%;
+    &:hover {
+        opacity: .70;
+    }
+}

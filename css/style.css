@@ -1153,6 +1153,14 @@ sub {
   box-sizing: border-box;
 }
 
+.shop-piece-opacity {
+  width: 100%;
+}
+
+.shop-piece-opacity:hover {
+  opacity: .70;
+}
+
 .news {
   text-align: left;
 }
