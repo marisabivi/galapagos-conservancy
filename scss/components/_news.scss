@@ -43,6 +43,23 @@
     }
 }
 
+.i-news {
+  padding-left: 2em;
+  text-align: center;
+  padding-right: 2em;
+  h2 {
+    @include zero;
+    padding-top: 10px;
+    border-bottom: 1px solid $grey;
+    line-height: 25px;
+  }
+  p {
+    padding-top: 5px;
+    padding-left: .5em;
+    text-align: left;
+  }
+}
+
 .news-img {
     width: 100%;
 }

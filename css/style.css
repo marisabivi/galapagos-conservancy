@@ -1108,6 +1108,16 @@ sub {
   text-align: center;
 }
 
+.shop-h2 {
+  color: #F16067;
+}
+
+.shop-h3 {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
 .shop-h4-title {
   color: #3DBB9A;
   text-decoration: none;
@@ -1115,16 +1125,27 @@ sub {
   text-align: center;
 }
 
-.shop-h3 {
+.shop-h4-adopt {
+  color: #3DBB9A;
+}
+
+.shop-h4 {
   color: #F16067;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h4 {
-  color: #3DBB9A;
+.i-about {
   text-decoration: none;
-  font-family: Lato, sans-serif;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.shop-link:hover {
+  color: #d9464d;
 }
 
 .shop-paragraph {
@@ -1134,6 +1155,14 @@ sub {
 
 .shop-piece {
   box-sizing: border-box;
+}
+
+.shop-piece-opacity {
+  width: 100%;
+}
+
+.shop-piece-opacity:hover {
+  opacity: .70;
 }
 
 .news {
@@ -1190,6 +1219,26 @@ sub {
 
 .news-section-title:hover {
   color: #d9464d;
+}
+
+.i-news {
+  padding-left: 2em;
+  text-align: center;
+  padding-right: 2em;
+}
+
+.i-news h2 {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  line-height: 25px;
+}
+
+.i-news p {
+  padding-top: 5px;
+  padding-left: .5em;
+  text-align: left;
 }
 
 .news-img {
@@ -1833,8 +1882,15 @@ sub {
   }
 }
 
+@media only screen and (max-height: 40em) {
+  .fixednav {
+    top: 5.5em;
+    font-size: .75em;
+  }
+}
+
 .galapagos {
-  padding: 2em;
+  padding-top: 1em;
   text-align: left;
 }
 
@@ -1854,29 +1910,26 @@ sub {
   list-style-type: circle;
 }
 
-.galapagos .fixednav li {
+.fixednav li li {
   list-style-type: none;
 }
 
-.galapagos h1 {
+.fixednav li h1 {
   text-align: center;
 }
 
-.galapagos h2 {
+.fixednav li h2 {
   text-align: center;
 }
 
-.galapagos h3 {
+.fixednav li h3 {
   text-align: center;
 }
 
-.galapagos h4 {
+.fixednav li h4 {
+  text-align: left;
+  padding-left: .5em;
   color: #3DBB9A;
-}
-
-.gimg {
-  width: 100%;
-  padding-bottom: 40px;
 }
 
 strong {
@@ -2007,7 +2060,7 @@ a {
 }
 
 .conservation {
-  padding: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   text-align: left;
 }
@@ -2052,6 +2105,10 @@ a {
 .cimg {
   width: 100%;
   padding-bottom: 30px;
+}
+
+li {
+  text-align: left;
 }
 
 /* galapagos-conservancy */
