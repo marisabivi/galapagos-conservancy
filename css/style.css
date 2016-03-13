@@ -1108,6 +1108,16 @@ sub {
   text-align: center;
 }
 
+.shop-h2 {
+  color: #F16067;
+}
+
+.shop-h3 {
+  color: #3DBB9A;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
 .shop-h4-title {
   color: #3DBB9A;
   text-decoration: none;
@@ -1115,16 +1125,27 @@ sub {
   text-align: center;
 }
 
-.shop-h3 {
+.shop-h4-adopt {
+  color: #3DBB9A;
+}
+
+.shop-h4 {
   color: #F16067;
   text-decoration: none;
   font-family: Lato, sans-serif;
 }
 
-.shop-h4 {
-  color: #3DBB9A;
+.i-about {
   text-decoration: none;
-  font-family: Lato, sans-serif;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.shop-link:hover {
+  color: #d9464d;
 }
 
 .shop-paragraph {
@@ -1134,6 +1155,14 @@ sub {
 
 .shop-piece {
   box-sizing: border-box;
+}
+
+.shop-piece-opacity {
+  width: 100%;
+}
+
+.shop-piece-opacity:hover {
+  opacity: .70;
 }
 
 .news {
