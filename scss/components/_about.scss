@@ -1,5 +1,5 @@
 .about {
-    padding: 2em;
+    padding-top: 1em;
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -7,12 +7,27 @@
     @media only screen and (min-width: 75em) {
     padding-right: 12em;
     }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
     h3 {
         text-align: center;
     }
     h4 {
         color: $teal;
-    }   
+    }  
+    li {
+        text-align: left;
+    
+    }
+}
+.beach {
+    width:100%;
+    padding-bottom: 30px;
+    
 }
 
 
@@ -36,17 +51,17 @@
 }
 
 .mlist {
-    list-style-type:disc;
+    list-style-type:circle;
 }
 
 .fixednav {
     border-radius: 5px;
     position: fixed;
-    top: 8em;
+    top: 4.1em;
     width: auto;
     padding:1em;
     padding-left: 3em;
-    padding-right:2.8em;
+    padding-right:2em;
     left:-5px;
     background-color: $off-white;
     li {

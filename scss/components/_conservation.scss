@@ -1,0 +1,42 @@
+.conservation {
+    padding-top: 1em;
+    padding-left: 2em;
+    text-align: left;
+    @media only screen and (max-width: 38em) {
+    padding: 2em;
+    }
+    @media only screen and (min-width: 75em) {
+    padding-right: 12em;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        color: $teal;
+    }
+    .fixednav {
+        padding: 1.5em;
+    }
+    .list {
+    li {
+    list-style-type:circle;
+    background-color: $white;
+    }
+    }
+}
+
+.cimg {
+    
+    width:100%;
+    padding-bottom: 30px;
+}
+
+li {
+    text-align: left;
+}
