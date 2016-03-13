@@ -7,9 +7,10 @@
     @media only screen and (min-width: 75em) {
     padding-right: 12em;
     }
-    li { 
+    li {
         list-style-type: circle;
     }
+
     .fixednav  li{
         list-style-type: none;
     }
@@ -28,7 +29,6 @@
 
 }
 
-
 strong {
     color: $teal;
 }
@@ -37,11 +37,8 @@ a {
     text-decoration: none;
 }
 
-
-
 .islandinfo {
     li {
         list-style-type: none;
     }
 }
-
