@@ -1870,7 +1870,7 @@ sub {
 }
 
 .galapagos {
-  padding: 2em;
+  padding-top: 1em;
   text-align: left;
 }
 
@@ -1890,29 +1890,26 @@ sub {
   list-style-type: circle;
 }
 
-.galapagos .fixednav li {
+.fixednav li li {
   list-style-type: none;
 }
 
-.galapagos h1 {
+.fixednav li h1 {
   text-align: center;
 }
 
-.galapagos h2 {
+.fixednav li h2 {
   text-align: center;
 }
 
-.galapagos h3 {
+.fixednav li h3 {
   text-align: center;
 }
 
-.galapagos h4 {
+.fixednav li h4 {
+  text-align: left;
+  padding-left: .5em;
   color: #3DBB9A;
-}
-
-.gimg {
-  width: 100%;
-  padding-bottom: 40px;
 }
 
 strong {
@@ -2043,7 +2040,7 @@ a {
 }
 
 .conservation {
-  padding: 2em;
+  padding-top: 1em;
   padding-left: 2em;
   text-align: left;
 }
@@ -2088,6 +2085,10 @@ a {
 .cimg {
   width: 100%;
   padding-bottom: 30px;
+}
+
+li {
+  text-align: left;
 }
 
 /* galapagos-conservancy */
