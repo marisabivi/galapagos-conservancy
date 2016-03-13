@@ -1833,6 +1833,13 @@ sub {
   }
 }
 
+@media only screen and (max-height: 40em) {
+  .fixednav {
+    top: 5.5em;
+    font-size: .75em;
+  }
+}
+
 .galapagos {
   padding: 2em;
   text-align: left;
