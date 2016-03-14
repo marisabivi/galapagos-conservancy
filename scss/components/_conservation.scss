@@ -1,6 +1,7 @@
 .conservation {
     padding-top: 1em;
     padding-left: 2em;
+
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -13,6 +14,7 @@
     }
     h2 {
         text-align: center;
+        border: none;
     }
     h3 {
         text-align: center;
@@ -29,10 +31,13 @@
     background-color: $white;
     }
     }
+    li {
+    text-align: left;
+    }
 }
 
 .cimg {
-    
+
     width:100%;
     padding-bottom: 30px;
 }
