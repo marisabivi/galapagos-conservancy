@@ -1399,7 +1399,6 @@ sub {
   list-style-type: none;
 }
 
-
 .btn-submit a {
   color: #EFEEED;
   text-decoration: none;
@@ -1777,8 +1776,6 @@ sub {
   opacity: 1;
 }
 
-<<<<<<< HEAD
-=======
 #img-s-1 {
   background: url("../img/shop-other-sale-3.jpg");
   background-size: cover;
@@ -1806,7 +1803,6 @@ sub {
   opacity: 1;
 }
 
->>>>>>> gh-pages
 #text {
   color: #fff;
   padding: 0;
@@ -1896,6 +1892,7 @@ sub {
 
 .fixednav li {
   padding: .25em;
+  list-style-type: none;
 }
 
 .fixednav a {
@@ -2092,13 +2089,7 @@ a {
 
 .conservation {
   padding-top: 1em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> gh-pages
   padding-left: 2em;
->>>>>>> gh-pages
   text-align: left;
 }
 
@@ -2144,8 +2135,9 @@ a {
   text-align: left;
 }
 
-li {
-  text-align: left;
+.cimg {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 li {
