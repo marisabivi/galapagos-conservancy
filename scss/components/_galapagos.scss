@@ -10,8 +10,10 @@
     li {
         list-style-type: circle;
     }
-    .fixednav  li{
+    .fixednav  {
+    li{
         list-style-type: none;
+        }
     }
     h1 {
         text-align: center;
