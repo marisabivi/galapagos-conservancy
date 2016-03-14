@@ -1221,6 +1221,26 @@ sub {
   color: #d9464d;
 }
 
+.i-news {
+  padding-left: 2em;
+  text-align: center;
+  padding-right: 2em;
+}
+
+.i-news h2 {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  line-height: 25px;
+}
+
+.i-news p {
+  padding-top: 5px;
+  padding-left: .5em;
+  text-align: left;
+}
+
 .news-img {
   width: 100%;
 }
@@ -1335,6 +1355,47 @@ sub {
 
 .bg {
   background-color: #fff;
+<<<<<<< HEAD
+}
+
+.contain {
+  color: #3DBB9A;
+  text-align: center;
+}
+
+.input {
+  height: 30px;
+  width: 250px;
+  margin: 5px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid #3DBB9A;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid #F16067;
+}
+
+.btn-submit {
+  height: 30px;
+  width: 180px;
+  margin: 18px auto;
+  line-height: 30px;
+  background-color: #3DBB9A;
+  color: #EFEEED;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #EFEEED;
+}
+
+.btn-submit:hover {
+  background-color: #339c81;
+}
+
+.btn-submit:focus {
+=======
 }
 
 .contain {
@@ -1379,6 +1440,14 @@ sub {
   list-style-type: none;
 }
 
+.btn-submit a {
+>>>>>>> gh-pages
+  color: #EFEEED;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+<<<<<<< HEAD
 .btn-submit a {
   color: #EFEEED;
   text-decoration: none;
@@ -1574,6 +1643,197 @@ sub {
   list-style-type: none;
 }
 
+=======
+.p {
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.p a {
+  color: #DBDBDB;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.p a:hover {
+  color: #000;
+}
+
+.p a:focus {
+  text-decoration: none;
+  color: #F16067;
+}
+
+.b-0 {
+  margin-bottom: 0;
+}
+
+.text {
+  text-align: center;
+  display: block;
+}
+
+.text h1 {
+  color: #3DBB9A;
+  margin: 0;
+  font-size: 4em;
+}
+
+.text p {
+  color: #000;
+}
+
+.check {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 32em) {
+  .s-left {
+    float: left;
+  }
+  .s-right {
+    float: right;
+  }
+  .divider {
+    border-right: 1px solid #DBDBDB;
+    padding: 0;
+    margin: 0;
+  }
+  .contain {
+    padding: 1em;
+  }
+}
+
+.billboard_i {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.i-carousel {
+  overflow: hidden;
+  width: 100%;
+  height: 12.5em;
+  display: block;
+}
+
+.i-carousel .i-panes {
+  padding: 0;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  list-style-type: none;
+  animation: carousel 30s infinite;
+}
+
+.i-carousel .i-panes > li {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+
+.i-carousel img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 38em) {
+  .i-carousel {
+    height: 12em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .i-carousel {
+    height: 23em;
+  }
+}
+
+.idonate-btn {
+  color: #EFEEED;
+  background-color: #3DBB9A;
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.idonate-btn:hover {
+  background-color: #339c81;
+}
+
+.idonate-btn div {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.idonate-btn a {
+  color: #DBDBDB;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+>>>>>>> gh-pages
 .idonate-btn a:link {
   text-decoration: none;
   color: #F16067;
@@ -1756,6 +2016,36 @@ sub {
   opacity: 1;
 }
 
+<<<<<<< HEAD
+=======
+#img-s-1 {
+  background: url("../img/shop-other-sale-3.jpg");
+  background-size: cover;
+}
+
+#img-s-1:hover #overlay {
+  opacity: 1;
+}
+
+#img-s-2 {
+  background: url("../img/shop-poster-sale-1.jpg");
+  background-size: cover;
+}
+
+#img-s-2:hover #overlay {
+  opacity: 1;
+}
+
+#img-s-3 {
+  background: url("../img/shop-sale-kids.jpg");
+  background-size: cover;
+}
+
+#img-s-3:hover #overlay {
+  opacity: 1;
+}
+
+>>>>>>> gh-pages
 #text {
   color: #fff;
   padding: 0;
@@ -2042,7 +2332,10 @@ a {
 .conservation {
   padding-top: 1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> gh-pages
   padding-left: 2em;
 >>>>>>> gh-pages
   text-align: left;
@@ -2087,6 +2380,10 @@ a {
 }
 
 .conservation li {
+  text-align: left;
+}
+
+li {
   text-align: left;
 }
 
