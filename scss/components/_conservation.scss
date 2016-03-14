@@ -1,5 +1,7 @@
 .conservation {
     padding-top: 1em;
+    padding-left: 2em;
+
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -32,4 +34,14 @@
     li {
     text-align: left;
     }
+}
+
+.cimg {
+
+    width:100%;
+    padding-bottom: 30px;
+}
+
+li {
+    text-align: left;
 }

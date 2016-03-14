@@ -1,5 +1,5 @@
 .about {
-    padding: 2em;
+    padding-top: 1em;
     text-align: left;
     @media only screen and (max-width: 38em) {
     padding: 2em;
@@ -18,7 +18,11 @@
     }
     h4 {
         color: $teal;
-    }   
+    }  
+    li {
+        text-align: left;
+    
+    }
 }
 .beach {
     width:100%;
@@ -47,7 +51,7 @@
 }
 
 .mlist {
-    list-style-type:disc;
+    list-style-type:circle;
 }
 
 .fixednav {
@@ -73,6 +77,10 @@
     }
     @media only screen and (max-width: 38em){
         display:none;
+    }
+    @media only screen and (max-height: 40em){
+        top: 5.5em;
+        font-size: .75em;
     }
 
 }
