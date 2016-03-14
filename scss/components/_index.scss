@@ -265,6 +265,29 @@ padding: 30%;
   }
 }
 
+#img-s-1{
+  background: url('../img/shop-other-sale-3.jpg');
+  background-size: cover;
+  &:hover #overlay {
+    opacity: 1;
+  }
+}
+
+#img-s-2{
+  background: url('../img/shop-poster-sale-1.jpg');
+  background-size: cover;
+  &:hover #overlay {
+    opacity: 1;
+  }
+}
+
+#img-s-3{
+  background: url('../img/shop-sale-kids.jpg');
+  background-size: cover;
+  &:hover #overlay {
+    opacity: 1;
+  }
+}
 
 #text {
   color: $white;
